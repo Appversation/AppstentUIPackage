@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		GCkep9BSkHWV6E1d8uzz648PCSg=
+		hn+VmwW0ENi5839tQMNgWiiea5A=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -36,14 +36,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r+gth4PVPjHwYV8txNxOZ2hItjByM3xoIi/I7TiywmA=
+			6l35dBX3g01fwP/yp4QczhVN5ZY4lg/vtbcJsmzBIwQ=
 			</data>
 		</dict>
 		<key>Modules/AppstentUIMac.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bgGc7HEjE3ff9qwouzKwPNhMG6MraNBQiayQKGraOQk=
+			50zUAGl4dXbiZZnELwMxetRjxA/aRhjSk+M7bCMOVDI=
 			</data>
 		</dict>
 		<key>Modules/AppstentUIMac.swiftmodule/x86_64.swiftdoc</key>
@@ -57,14 +57,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r+gth4PVPjHwYV8txNxOZ2hItjByM3xoIi/I7TiywmA=
+			6l35dBX3g01fwP/yp4QczhVN5ZY4lg/vtbcJsmzBIwQ=
 			</data>
 		</dict>
 		<key>Modules/AppstentUIMac.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bgGc7HEjE3ff9qwouzKwPNhMG6MraNBQiayQKGraOQk=
+			50zUAGl4dXbiZZnELwMxetRjxA/aRhjSk+M7bCMOVDI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dlQoGeMcsWR60HT5zYIGHfoNziOCdeoco6KN+XlI1uY=
+			PukuqDLnegtc5xHghLDZNkm9GOUn1AWDzQ5/dHc0ZBE=
 			</data>
 		</dict>
 	</dict>

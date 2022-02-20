@@ -8,6 +8,13 @@ import Swift
 import SwiftUI
 import _AVKit_SwiftUI
 import _Concurrency
+public struct AppstentDoc : Swift.Identifiable {
+  public let id: Foundation.UUID
+  public var name: Swift.String
+  public var lastModified: Foundation.Date?
+  public var content: Swift.String
+  public typealias ID = Foundation.UUID
+}
 @_hasMissingDesignatedInitializers public class ContentFormatUtil {
   public static func color(from colorString: Swift.String) -> SwiftUI.Color?
   public static func alignment(from alignmentString: Swift.String) -> SwiftUI.Alignment?
@@ -319,6 +326,12 @@ public protocol CustomContentDataProvider {
   #if compiler(>=5.3) && $AsyncAwait
   @available(macOS 12, iOS 15, *)
   public static func getContent(with name: Swift.String, under subPath: Swift.String = "") async -> Foundation.Data?
+  #endif
+
+  
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(macOS 12, iOS 15, *)
+  public static func getAllViewContents(under subPath: Swift.String = "") async -> [AppstentUIMac.AppstentDoc]
   #endif
 
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
