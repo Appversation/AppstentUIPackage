@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AppstentUI-Swift.h</key>
 		<data>
-		ZmivwZxiOSdvUvQKAYM90gKfNPM=
+		91S01T5fh1ST6Xixj+2kRtwDjKA=
 		</data>
 		<key>Headers/AppstentUI.h</key>
 		<data>
@@ -14,31 +14,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/nqKk6Bb/rDpJtJGWg7j9E4cj2M=
+		SJBcRqM6KsB+yhwYnhd3AViCK2E=
 		</data>
 		<key>Modules/AppstentUI.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		55QuPxfBCHmv26W5mr09oMK3GKg=
+		u6zMwp29kTIn5MgNA5rTz7KfTNk=
 		</data>
 		<key>Modules/AppstentUI.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		qyY7Z6hmDs/ckTG3KRriHCmWKJo=
+		dOpj2FD1zMA41sh0W0OrYsjIsTE=
 		</data>
 		<key>Modules/AppstentUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		1le2RI0Wf/3/oIv30vjh2TnmUeE=
-		</data>
-		<key>Modules/AppstentUI.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		55QuPxfBCHmv26W5mr09oMK3GKg=
-		</data>
-		<key>Modules/AppstentUI.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		qyY7Z6hmDs/ckTG3KRriHCmWKJo=
-		</data>
-		<key>Modules/AppstentUI.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		1le2RI0Wf/3/oIv30vjh2TnmUeE=
+		jjvgz6kvCw6lWE0IgeqyVoFdCy0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +39,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1qGSUpWgOSSrNVxORgf/V8mght5KJE9gDnQiyAg8CNA=
+			aplY+640xpT5hnOXAPMSxczyGEs3HvtJCaYQ4nQIO1Q=
 			</data>
 		</dict>
 		<key>Headers/AppstentUI.h</key>
@@ -65,42 +53,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9jcQhWQNAVmbGi7/D/nTjw/Xh0rgFbsabGgyOx4lh3s=
+			+TGZqrYQlAVNcKJAeapbKSbcT+l46R9E3YcQ2McAdFU=
 			</data>
 		</dict>
 		<key>Modules/AppstentUI.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aR76ohg4D5wVixg7MdUMp4qe8OP+5UjcE6XFc2HV24Y=
+			MWMuNpqd/fOsftm6fw1Fh0NJxT7zgrUz159Cev9TgN0=
 			</data>
 		</dict>
 		<key>Modules/AppstentUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mZTbtoOWPRfhOAjEd0yPZvlOUgi5fTtDsSaa4dztXoo=
-			</data>
-		</dict>
-		<key>Modules/AppstentUI.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9jcQhWQNAVmbGi7/D/nTjw/Xh0rgFbsabGgyOx4lh3s=
-			</data>
-		</dict>
-		<key>Modules/AppstentUI.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			aR76ohg4D5wVixg7MdUMp4qe8OP+5UjcE6XFc2HV24Y=
-			</data>
-		</dict>
-		<key>Modules/AppstentUI.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mZTbtoOWPRfhOAjEd0yPZvlOUgi5fTtDsSaa4dztXoo=
+			RD5bZR+dSBSWPP+QJ8fArvecn4tYJBAKS9+ffpE2PLg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

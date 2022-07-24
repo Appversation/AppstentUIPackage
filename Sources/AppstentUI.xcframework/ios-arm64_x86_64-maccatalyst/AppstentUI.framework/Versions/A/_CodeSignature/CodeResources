@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		M/7HRaKGe64So/+gc36nERHRXTU=
+		qBEL7ckLP62xVnpZmQFbWddqG/I=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -15,7 +15,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pBf818DwitliZIMe0+BPhz2RCPrYI0udNOQHENjrC24=
+			5lLMa+/hE1Wb57GSFb7kmtejcTw59X/jFTWu8hzParo=
 			</data>
 		</dict>
 		<key>Headers/AppstentUI.h</key>
@@ -29,84 +29,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vAzh55/m42RxBmRW60GI19QnS46ramwW6R4Dy7MxSQU=
+			yPOV1F86DpcPHX9FI7eOSsUgYqJYFKidsql8ohE/z+k=
 			</data>
 		</dict>
 		<key>Modules/AppstentUI.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PHEVj0HtfjdqukzqFpnHu9CVTY2s0it7Yhp3/PJkgu4=
+			wlZ6xKkOdsTnsJhfMXSZyOLJUXCZv/3WPtRDATPBtcM=
 			</data>
 		</dict>
 		<key>Modules/AppstentUI.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MYG91pCrs9AYc1lopR0omoc7ZmV52lFl6ideehIYEyc=
-			</data>
-		</dict>
-		<key>Modules/AppstentUI.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vAzh55/m42RxBmRW60GI19QnS46ramwW6R4Dy7MxSQU=
-			</data>
-		</dict>
-		<key>Modules/AppstentUI.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PHEVj0HtfjdqukzqFpnHu9CVTY2s0it7Yhp3/PJkgu4=
-			</data>
-		</dict>
-		<key>Modules/AppstentUI.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MYG91pCrs9AYc1lopR0omoc7ZmV52lFl6ideehIYEyc=
+			WzOrsjAk5ur2qZMSXiO9N1a2Z5eGbpP4lrxvXfhkUss=
 			</data>
 		</dict>
 		<key>Modules/AppstentUI.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3DbvuSRLPL9LFlD7cU/cW/iEMqkyf66lXjbUPiSbp2c=
+			1ja2FKsiBkrCDz3UnJG0N1jK1XWVcC8RcbUc2df7SPk=
 			</data>
 		</dict>
 		<key>Modules/AppstentUI.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NLofBs2KjMWFERMYnK/ldnBAYP8j/HQg1u6dLeEuMP8=
+			VsvaLaJWtOH0T4jMal0B9bRUhteO/xjqBqEujnZAabw=
 			</data>
 		</dict>
 		<key>Modules/AppstentUI.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jWJye5PAO7isFvbxGW3qqBGovTd+xjlbg1T8MWiXYfY=
-			</data>
-		</dict>
-		<key>Modules/AppstentUI.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3DbvuSRLPL9LFlD7cU/cW/iEMqkyf66lXjbUPiSbp2c=
-			</data>
-		</dict>
-		<key>Modules/AppstentUI.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NLofBs2KjMWFERMYnK/ldnBAYP8j/HQg1u6dLeEuMP8=
-			</data>
-		</dict>
-		<key>Modules/AppstentUI.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jWJye5PAO7isFvbxGW3qqBGovTd+xjlbg1T8MWiXYfY=
+			wTcI25h6VkQ0sq6NOBO5mHVLSb1D5AcP6Oe5YOHuzVE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -120,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qe7X0HMp2SAECHYVdhtmapUBFVmKnmX+gRxcVSmTmhM=
+			rZkxdLvya1A6o3MDhtu7iB1QZXmLTkHuPtk1/4otfB8=
 			</data>
 		</dict>
 	</dict>

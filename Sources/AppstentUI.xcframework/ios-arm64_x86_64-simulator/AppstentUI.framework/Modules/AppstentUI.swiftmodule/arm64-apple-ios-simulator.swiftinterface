@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AppstentUI
 @_exported import AppstentUI
 import Combine
@@ -9,12 +9,20 @@ import Swift
 import SwiftUI
 import _AVKit_SwiftUI
 import _Concurrency
-public struct AppstentDoc : Swift.Identifiable {
+public struct AppstentDoc : Swift.Identifiable, Swift.Hashable {
   public let id: Foundation.UUID
   public var name: Swift.String
   public var lastModified: Foundation.Date?
   public var content: Swift.String
+  public var isFolder: Swift.Bool
+  public var children: [AppstentUI.AppstentDoc]?
+  public init(name: Swift.String, lastModified: Foundation.Date? = nil, isFolder: Swift.Bool = false)
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: AppstentUI.AppstentDoc, b: AppstentUI.AppstentDoc) -> Swift.Bool
   public typealias ID = Foundation.UUID
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 @_hasMissingDesignatedInitializers public class ContentFormatUtil {
   public static func color(from colorString: Swift.String) -> SwiftUI.Color?
@@ -323,7 +331,7 @@ public protocol CustomContentDataProvider {
   
   #if compiler(>=5.3) && $AsyncAwait
   @available(macOS 12, iOS 15, *)
-  public static func update(content: Swift.String, with name: Swift.String, to subPath: Swift.String = "") async
+  public static func update(content: Swift.String, with name: Swift.String, to subPath: Swift.String = "") async -> Swift.Bool
   #endif
 
   
@@ -336,6 +344,12 @@ public protocol CustomContentDataProvider {
   #if compiler(>=5.3) && $AsyncAwait
   @available(macOS 12, iOS 15, *)
   public static func getAllViewContents(under subPath: Swift.String = "") async -> [AppstentUI.AppstentDoc]
+  #endif
+
+  
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(macOS 12, iOS 15, *)
+  public static func deleteContent(with name: Swift.String, under subPath: Swift.String = "") async -> Swift.Bool
   #endif
 
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
