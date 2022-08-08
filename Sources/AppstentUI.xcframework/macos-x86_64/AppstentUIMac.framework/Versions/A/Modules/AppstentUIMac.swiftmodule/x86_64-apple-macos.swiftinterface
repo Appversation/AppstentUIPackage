@@ -154,24 +154,6 @@ extension SwiftUI.View {
         return AnyView(self)
     }
   
-  @inlinable public func textEmphasis(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUI.View {
-        
-        let textEmphasisString: String = viewContent.textEmphasis
-        
-        if let textView = self as? Text {
-            switch textEmphasisString {
-            case "bold": return AnyView(textView.bold())
-            case "italic": return AnyView(textView.italic())
-            case "underline": return AnyView(textView.underline())
-            default: break
-            }
-        } else {
-            print("couldn't cast \(self) as Text")
-        }
-        
-        return AnyView(self)
-    }
-  
   @inlinable public func padding(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUI.View {
         
         if let paddingValue:Float = viewContent.padding {
