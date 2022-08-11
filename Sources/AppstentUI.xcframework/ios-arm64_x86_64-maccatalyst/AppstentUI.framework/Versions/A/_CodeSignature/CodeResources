@@ -36,14 +36,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/EejE22zHB82GnQIEYExbpp8f27jOmUTysKpoGXw2JU=
+			90W5B/vIHWMtdYbwf8VoyIfa+oVLp+2Zy0OZV0f0K3s=
 			</data>
 		</dict>
 		<key>Modules/AppstentUI.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FqhOpRdG8UdPpuMWhsrqKT4+lHxe4yarfTy5lT0G93s=
+			M0g9+vKWoIXKd+CB+qseWdNnRpW9cVmDx3jtTeaXYJQ=
 			</data>
 		</dict>
 		<key>Modules/AppstentUI.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -57,14 +57,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O0S/YDVIoceQOqCS+OEvyGBfxI7KnactK7g1Z83Kmh4=
+			T8bdYWPj3JFrv5+G3GlH5cVmeQUJ3TQu0r9OfE+PNWU=
 			</data>
 		</dict>
 		<key>Modules/AppstentUI.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HQrd+da4osvgWRf9OmVOMaYQ00IDlWkJDgWrzW+6snQ=
+			8X5oVqP2Fc0BzCqpd6h1ziSiLrFgFOf8YX3yLOuWZf0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
