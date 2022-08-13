@@ -27,8 +27,6 @@ public struct AppstentDoc : Swift.Identifiable, Swift.Hashable {
 @_hasMissingDesignatedInitializers public class ContentFormatUtil {
   public static func color(from colorString: Swift.String) -> SwiftUI.Color?
   public static func alignment(from alignmentString: Swift.String) -> SwiftUI.Alignment?
-  public static func horizontalAlignment(from alignmentString: Swift.String) -> SwiftUI.HorizontalAlignment?
-  public static func verticalAlignment(from alignmentString: Swift.String) -> SwiftUI.VerticalAlignment?
   public static func unitPoint(from unitPointString: Swift.String) -> SwiftUI.UnitPoint?
   @objc deinit
 }
