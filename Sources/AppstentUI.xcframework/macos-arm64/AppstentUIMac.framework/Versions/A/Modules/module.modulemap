@@ -1,0 +1,4 @@
+framework module AppstentUIMac {
+  header "AppstentUIMac-Swift.h"
+  requires objc
+}
