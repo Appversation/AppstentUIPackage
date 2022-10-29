@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AppstentUI-Swift.h</key>
 		<data>
-		91S01T5fh1ST6Xixj+2kRtwDjKA=
+		mKonrLdICOzwOSG6LtJMn+av1jk=
 		</data>
 		<key>Headers/AppstentUI.h</key>
 		<data>
@@ -14,23 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		g47aqMHlx3+1qRMmubLCyWEyx2o=
+		8pW5Eqwe4tYrqIQIyqlsACkIcmw=
+		</data>
+		<key>Modules/AppstentUI.swiftmodule/arm64-apple-ios.abi.json</key>
+		<data>
+		45CO0D5iDaeThrptQQ52FzRG4Qc=
+		</data>
+		<key>Modules/AppstentUI.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<data>
+		m6yQOnvCO0NCzRnjde8U6dtP6/4=
 		</data>
 		<key>Modules/AppstentUI.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		u6zMwp29kTIn5MgNA5rTz7KfTNk=
+		DZSv92YMJA05+NCfXTYSf9kfyTo=
 		</data>
 		<key>Modules/AppstentUI.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		oI/GeIenox+c1/82QxwpiIef/JY=
+		m6yQOnvCO0NCzRnjde8U6dtP6/4=
 		</data>
 		<key>Modules/AppstentUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		kpSUjkPumjyOJB97wTTmF7t4G8M=
+		mQCalNEQSlgOlENr9NFx9WSeZ78=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		gRIwO+O800XAGIUaFZyyjQ1eIcY=
+		yuztxLrbU+MqlAeQ1hy6sSNCRl8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -39,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aplY+640xpT5hnOXAPMSxczyGEs3HvtJCaYQ4nQIO1Q=
+			vvpY0kZX56HvhqD/XUInVtBUbphiz1kufXd5wo9SuLk=
 			</data>
 		</dict>
 		<key>Headers/AppstentUI.h</key>
@@ -49,32 +57,46 @@
 			qiE8/uPyq20bEgfK/Q7pxZn517+3Ksrc6LM6LDGOgXM=
 			</data>
 		</dict>
+		<key>Modules/AppstentUI.swiftmodule/arm64-apple-ios.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kGHa0t6bgffZ24broQSdmzWtR6lrrvgg0oHCNmbrDE8=
+			</data>
+		</dict>
+		<key>Modules/AppstentUI.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Z7d3579f7ASeTPfvD5S2YdbIoUAsNHcdrSom1oeHQVo=
+			</data>
+		</dict>
 		<key>Modules/AppstentUI.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+TGZqrYQlAVNcKJAeapbKSbcT+l46R9E3YcQ2McAdFU=
+			09uzkE+iBZQV2xz6McpGz8eju8kYmIJlEiqBFPUBu6A=
 			</data>
 		</dict>
 		<key>Modules/AppstentUI.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5DnxqK9rxLXtphK0xPWerrOIFWoZH/p/oPu0XAC6/uo=
+			Z7d3579f7ASeTPfvD5S2YdbIoUAsNHcdrSom1oeHQVo=
 			</data>
 		</dict>
 		<key>Modules/AppstentUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vvjchl27BPt27DzZuO33yHhyCdpcLlql7VlglxN2ZRc=
+			gxMsORYLomu2DiYAnOGaJGJjS1GvkBwWIX2DUOj5744=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OcXM2NGYR6jMHoAb5S4vblUwdKNHaU1VOuWpEgG27XY=
+			+SnNcO74qLjhjppJimNSMUy1VyoT/thT3VW8A49m1Xo=
 			</data>
 		</dict>
 	</dict>

@@ -6,6 +6,6 @@ framework module AppstentUI {
 }
 
 module AppstentUI.Swift {
-    header "AppstentUI-Swift.h"
-    requires objc
+  header "AppstentUI-Swift.h"
+  requires objc
 }
