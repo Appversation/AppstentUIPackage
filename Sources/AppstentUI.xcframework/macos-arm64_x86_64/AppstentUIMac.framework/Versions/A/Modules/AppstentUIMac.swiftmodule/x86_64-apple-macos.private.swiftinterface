@@ -7,6 +7,7 @@ import CoreData
 import Foundation
 import Swift
 import SwiftUI
+import WebKit
 import _AVKit_SwiftUI
 import _Concurrency
 import _StringProcessing
