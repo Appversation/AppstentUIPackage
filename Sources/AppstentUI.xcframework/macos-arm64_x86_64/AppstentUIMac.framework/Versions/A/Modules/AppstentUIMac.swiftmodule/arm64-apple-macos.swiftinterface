@@ -106,7 +106,7 @@ extension SwiftUI.View {
         if !colorString.isEmpty {
             
             if let color = ContentFormatUtil.color(from: colorString) {
-                return AnyView(self.foregroundColor(color))
+                return AnyView(self.foregroundColor(color).tint(color))
             }
         }
         
