@@ -4030,14 +4030,14 @@
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/TabBarContentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 238,
+      "offset": 248,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/TabBarContentView.swift",
       "kind": "StringLiteral",
-      "offset": 2682,
+      "offset": 2700,
       "length": 11,
       "value": "\"pageStyle\""
     },
