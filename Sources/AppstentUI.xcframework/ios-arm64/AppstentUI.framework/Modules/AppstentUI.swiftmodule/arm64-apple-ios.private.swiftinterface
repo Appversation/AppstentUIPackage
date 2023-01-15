@@ -285,6 +285,16 @@ extension SwiftUI.View {
     }
   
 }
+extension SwiftUI.TabView {
+  @inlinable public func tabbarBackground() -> some SwiftUI.View {
+        if #available(iOS 16.0, *) {
+            return AnyView(self.toolbarBackground(Color.init(white: 255, opacity: 0.9), for: .tabBar))
+        } else {
+            return AnyView(self)
+        }
+    }
+  
+}
 extension SwiftUI.View {
   @inlinable public func tabViewStyle(from tabStyleString: Swift.String) -> some SwiftUI.View {
                    
