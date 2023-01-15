@@ -1,8 +1,7 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AppstentUI
+// swift-module-flags: -target x86_64-apple-macos12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AppstentUIMac
 // swift-module-flags-ignorable: -enable-bare-slash-regex
-@_exported import AppstentUI
 import Combine
 import CoreData
 import Foundation
@@ -18,10 +17,10 @@ public struct AppstentDoc : Swift.Identifiable, Swift.Hashable {
   public var lastModified: Foundation.Date?
   public var content: Swift.String
   public var isFolder: Swift.Bool
-  public var children: [AppstentUI.AppstentDoc]?
+  public var children: [AppstentUIMac.AppstentDoc]?
   public init(name: Swift.String, lastModified: Foundation.Date? = nil, isFolder: Swift.Bool = false)
   public func hash(into hasher: inout Swift.Hasher)
-  public static func == (a: AppstentUI.AppstentDoc, b: AppstentUI.AppstentDoc) -> Swift.Bool
+  public static func == (a: AppstentUIMac.AppstentDoc, b: AppstentUIMac.AppstentDoc) -> Swift.Bool
   public typealias ID = Foundation.UUID
   public var hashValue: Swift.Int {
     get
@@ -36,22 +35,22 @@ public struct AppstentDoc : Swift.Identifiable, Swift.Hashable {
   @objc deinit
 }
 @_Concurrency.MainActor public struct AppstentView : SwiftUI.View {
-  @_Concurrency.MainActor public var customDataProvider: AppstentUI.CustomContentDataProvider?
-  @_Concurrency.MainActor public static var customViewProvider: AppstentUI.CustomContentViewProvider?
+  @_Concurrency.MainActor public var customDataProvider: AppstentUIMac.CustomContentDataProvider?
+  @_Concurrency.MainActor public static var customViewProvider: AppstentUIMac.CustomContentViewProvider?
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  @_Concurrency.MainActor public init(from viewContent: AppstentUI.ViewContent, dataProvider: AppstentUI.CustomContentDataProvider? = nil)
-  public typealias Body = @_opaqueReturnTypeOf("$s10AppstentUI0A4ViewV4bodyQrvp", 0) __
+  @_Concurrency.MainActor public init(from viewContent: AppstentUIMac.ViewContent, dataProvider: AppstentUIMac.CustomContentDataProvider? = nil)
+  public typealias Body = @_opaqueReturnTypeOf("$s13AppstentUIMac0A4ViewV4bodyQrvp", 0) __
 }
 public struct ContentViewStyle : SwiftUI.ViewModifier {
-  @_Concurrency.MainActor(unsafe) public func body(content: AppstentUI.ContentViewStyle.Content) -> some SwiftUI.View
+  @_Concurrency.MainActor(unsafe) public func body(content: AppstentUIMac.ContentViewStyle.Content) -> some SwiftUI.View
   
-  public init(from viewContent: AppstentUI.ViewContent)
-  public typealias Body = @_opaqueReturnTypeOf("$s10AppstentUI16ContentViewStyleV4body7contentQr05SwiftB001_d9Modifier_C0VyACG_tF", 0) __
+  public init(from viewContent: AppstentUIMac.ViewContent)
+  public typealias Body = @_opaqueReturnTypeOf("$s13AppstentUIMac16ContentViewStyleV4body7contentQr7SwiftUI01_d9Modifier_C0VyACG_tF", 0) __
 }
 extension SwiftUI.View {
-  @inlinable public func shadow(from viewContent: AppstentUI.ViewContent) -> some SwiftUI.View {
+  @inlinable public func shadow(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUI.View {
         
         guard let shadow:ViewContent = viewContent.shadow else {
             return AnyView(self)
@@ -70,7 +69,7 @@ extension SwiftUI.View {
         return AnyView(self)
     }
   
-  @inlinable public func blur(from viewContent: AppstentUI.ViewContent) -> some SwiftUI.View {
+  @inlinable public func blur(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUI.View {
         
         guard let blur:ViewContent = viewContent.blur else {
             return AnyView(self)
@@ -86,7 +85,7 @@ extension SwiftUI.View {
         return AnyView(self)
     }
   
-  @inlinable public func backgroundColor(from viewContent: AppstentUI.ViewContent) -> some SwiftUI.View {
+  @inlinable public func backgroundColor(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUI.View {
         
         let colorString:String = viewContent.backgroundColor
         
@@ -100,7 +99,7 @@ extension SwiftUI.View {
         return AnyView(self.background(Color.clear))
     }
   
-  @inlinable public func foregroundColor(from viewContent: AppstentUI.ViewContent) -> some SwiftUI.View {
+  @inlinable public func foregroundColor(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUI.View {
         
         let colorString:String = viewContent.foregroundColor
         
@@ -114,7 +113,7 @@ extension SwiftUI.View {
         return AnyView(self)
     }
   
-  @inlinable public func font(from viewContent: AppstentUI.ViewContent) -> some SwiftUI.View {
+  @inlinable public func font(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUI.View {
         
         var font: Font?
         let fontString:String = viewContent.font
@@ -160,7 +159,7 @@ extension SwiftUI.View {
         return AnyView(self)
     }
   
-  @inlinable public func padding(from viewContent: AppstentUI.ViewContent) -> some SwiftUI.View {
+  @inlinable public func padding(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUI.View {
         
         if let paddingValue:Float = viewContent.padding {
             
@@ -174,7 +173,7 @@ extension SwiftUI.View {
         return AnyView(self)
     }
   
-  @inlinable public func offset(from viewContent: AppstentUI.ViewContent) -> some SwiftUI.View {
+  @inlinable public func offset(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUI.View {
         
         let offsetX:Float = viewContent.offsetX ?? 0
         let offsetY:Float = viewContent.offsetY ?? 0
@@ -182,7 +181,7 @@ extension SwiftUI.View {
         return AnyView(self.offset(x: CGFloat(offsetX), y: CGFloat(offsetY)))
     }
   
-  @inlinable public func position(from viewContent: AppstentUI.ViewContent) -> some SwiftUI.View {
+  @inlinable public func position(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUI.View {
         
         let positionX:Float = viewContent.positionX ?? 0
         let positionY:Float = viewContent.positionY ?? 0
@@ -190,7 +189,7 @@ extension SwiftUI.View {
         return AnyView(self.offset(x: CGFloat(positionX), y: CGFloat(positionY)))
     }
   
-  @inlinable public func border(from viewContent: AppstentUI.ViewContent) -> some SwiftUI.View {
+  @inlinable public func border(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUI.View {
         
         let borderWidth:Float = (viewContent.borderWidth) ?? 1
         let colorString:String = viewContent.borderColor
@@ -204,7 +203,7 @@ extension SwiftUI.View {
         return AnyView(self)
     }
   
-  @inlinable public func fixedSize(from viewContent: AppstentUI.ViewContent) -> some SwiftUI.View {
+  @inlinable public func fixedSize(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUI.View {
         
         let fixedWidth:Bool = viewContent.fixedWidth
         let fixedHeight:Bool = viewContent.fixedHeight
@@ -213,7 +212,7 @@ extension SwiftUI.View {
         return AnyView(fixedSize(horizontal: fixedWidth, vertical: fixedHeight))
     }
   
-  @inlinable public func frame(from viewContent: AppstentUI.ViewContent) -> some SwiftUI.View {
+  @inlinable public func frame(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUI.View {
         
         let width:Float? = viewContent.width
         let height:Float? = viewContent.height
@@ -241,7 +240,7 @@ extension SwiftUI.View {
                                alignment: alignment))
     }
   
-  @inlinable public func cornerRadius(from viewContent: AppstentUI.ViewContent) -> some SwiftUI.View {
+  @inlinable public func cornerRadius(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUI.View {
         
         guard let radius:Float = viewContent.cornerRadius else {
             return AnyView(self)
@@ -250,7 +249,7 @@ extension SwiftUI.View {
         return AnyView(self.cornerRadius(CGFloat(radius)))
     }
   
-  @inlinable public func clip(from viewContent: AppstentUI.ViewContent) -> some SwiftUI.View {
+  @inlinable public func clip(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUI.View {
         
         let shapeName:String = viewContent.clipShape
         
@@ -268,7 +267,7 @@ extension SwiftUI.View {
   
 }
 extension SwiftUI.View {
-  @inlinable public func listStyle(from viewContent: AppstentUI.ViewContent) -> some SwiftUI.View {
+  @inlinable public func listStyle(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUI.View {
            
         let fontString:String = viewContent.listStyle
         
@@ -276,8 +275,6 @@ extension SwiftUI.View {
         case "plainListStyle":  return AnyView(self.listStyle(PlainListStyle()))
         case "sidebarListStyle":  return AnyView(self.listStyle(SidebarListStyle()))
         case "insetListStyle":  return AnyView(self.listStyle(InsetListStyle()))
-        case "groupedListStyle":  return AnyView(self.listStyle(GroupedListStyle()))
-        case "insetGroupedListStyle":  return AnyView(self.listStyle(InsetGroupedListStyle()))
             
         default:
             return AnyView(self.listStyle(DefaultListStyle()))
@@ -285,33 +282,25 @@ extension SwiftUI.View {
     }
   
 }
-extension SwiftUI.TabView {
-  @inlinable public func tabbarBackground() -> some SwiftUI.View {
-        if #available(iOS 16.0, *) {
-            return AnyView(self.toolbarBackground(Color.init(white: 255, opacity: 0.9), for: .tabBar))
-        } else {
-            return AnyView(self)
-        }
-    }
-  
+extension SwiftUI.Color {
+  public static let backgroundColor: SwiftUI.Color
+  public static let secondaryBackgroundColor: SwiftUI.Color
 }
-extension SwiftUI.View {
-  @inlinable public func tabViewStyle(from tabStyleString: Swift.String) -> some SwiftUI.View {
-                   
-        switch tabStyleString {
-        case "pageStyle":  return AnyView(self.tabViewStyle(.page))
-            
-        default:
-            return AnyView(self.tabViewStyle(DefaultTabViewStyle()))
-        }
-    }
-  
+public struct CustomTabView : SwiftUI.View {
+  public init(content: [(tabText: Swift.String, tabIcon: SwiftUI.AnyView, view: SwiftUI.AnyView)])
+  public var tabBar: some SwiftUI.View {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s13AppstentUIMac13CustomTabViewV4bodyQrvp", 0) __
 }
 public protocol CustomContentDataProvider {
   func string(for fieldName: Swift.String) -> Swift.String
 }
 @dynamicCallable @dynamicMemberLookup public class ViewContent : Swift.Hashable, Foundation.ObservableObject {
-  public static func == (lhs: AppstentUI.ViewContent, rhs: AppstentUI.ViewContent) -> Swift.Bool
+  public static func == (lhs: AppstentUIMac.ViewContent, rhs: AppstentUIMac.ViewContent) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   @Combine.Published @_projectedValueProperty($isLoaded) public var isLoaded: Swift.Bool {
     get
@@ -331,13 +320,13 @@ public protocol CustomContentDataProvider {
   public subscript(dynamicMember member: Swift.String) -> Swift.String {
     get
   }
-  public subscript(dynamicMember member: Swift.String) -> [AppstentUI.ViewContent] {
+  public subscript(dynamicMember member: Swift.String) -> [AppstentUIMac.ViewContent] {
     get
   }
   public subscript(dynamicMember member: Swift.String) -> [Swift.String] {
     get
   }
-  public subscript(dynamicMember member: Swift.String) -> AppstentUI.ViewContent? {
+  public subscript(dynamicMember member: Swift.String) -> AppstentUIMac.ViewContent? {
     get
   }
   public subscript(dynamicMember member: Swift.String) -> Swift.Float? {
@@ -357,7 +346,7 @@ public protocol CustomContentDataProvider {
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   @available(macOS 12, iOS 15, *)
-  public static func getAllViewContents(under subPath: Swift.String = "") async -> [AppstentUI.AppstentDoc]
+  public static func getAllViewContents(under subPath: Swift.String = "") async -> [AppstentUIMac.AppstentDoc]
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   @available(macOS 12, iOS 15, *)
@@ -370,7 +359,7 @@ public protocol CustomContentDataProvider {
   }
 }
 public protocol CustomContentViewProvider {
-  func customView(from viewContent: AppstentUI.ViewContent) -> SwiftUI.AnyView
-  func visibility(from visibilityRule: AppstentUI.ViewContent) -> Swift.Bool
+  func customView(from viewContent: AppstentUIMac.ViewContent) -> SwiftUI.AnyView
+  func visibility(from visibilityRule: AppstentUIMac.ViewContent) -> Swift.Bool
 }
-extension AppstentUI.AppstentView : Swift.Sendable {}
+extension AppstentUIMac.AppstentView : Swift.Sendable {}
