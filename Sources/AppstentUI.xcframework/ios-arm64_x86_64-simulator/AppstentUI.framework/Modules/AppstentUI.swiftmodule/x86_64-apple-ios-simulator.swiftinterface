@@ -97,7 +97,7 @@ extension SwiftUI.View {
             }
         }
         
-        return AnyView(self.background(Color.clear))
+        return AnyView(self)
     }
   
   @inlinable public func foregroundColor(from viewContent: AppstentUI.ViewContent) -> some SwiftUI.View {
