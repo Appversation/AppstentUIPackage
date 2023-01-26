@@ -1658,6 +1658,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppstentUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -4134,6 +4144,41 @@
       "offset": 3240,
       "length": 11,
       "value": "\"pageStyle\""
+    },
+    {
+      "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
+      "kind": "Dictionary",
+      "offset": 392,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
+      "kind": "Dictionary",
+      "offset": 451,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
+      "kind": "Array",
+      "offset": 5399,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
+      "kind": "Array",
+      "offset": 5460,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
+      "kind": "Array",
+      "offset": 5522,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/DisclosureGroupContentView.swift",
