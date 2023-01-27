@@ -1875,6 +1875,243 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "LoadState",
+        "printedName": "LoadState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "loading",
+            "printedName": "loading",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppstentUIMac.LoadState.Type) -> AppstentUIMac.LoadState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoadState",
+                    "printedName": "AppstentUIMac.LoadState",
+                    "usr": "s:13AppstentUIMac9LoadStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppstentUIMac.LoadState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoadState",
+                        "printedName": "AppstentUIMac.LoadState",
+                        "usr": "s:13AppstentUIMac9LoadStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13AppstentUIMac9LoadStateO7loadingyA2CmF",
+            "mangledName": "$s13AppstentUIMac9LoadStateO7loadingyA2CmF",
+            "moduleName": "AppstentUIMac"
+          },
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppstentUIMac.LoadState.Type) -> AppstentUIMac.LoadState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoadState",
+                    "printedName": "AppstentUIMac.LoadState",
+                    "usr": "s:13AppstentUIMac9LoadStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppstentUIMac.LoadState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoadState",
+                        "printedName": "AppstentUIMac.LoadState",
+                        "usr": "s:13AppstentUIMac9LoadStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13AppstentUIMac9LoadStateO7successyA2CmF",
+            "mangledName": "$s13AppstentUIMac9LoadStateO7successyA2CmF",
+            "moduleName": "AppstentUIMac"
+          },
+          {
+            "kind": "Var",
+            "name": "failure",
+            "printedName": "failure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppstentUIMac.LoadState.Type) -> AppstentUIMac.LoadState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoadState",
+                    "printedName": "AppstentUIMac.LoadState",
+                    "usr": "s:13AppstentUIMac9LoadStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppstentUIMac.LoadState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoadState",
+                        "printedName": "AppstentUIMac.LoadState",
+                        "usr": "s:13AppstentUIMac9LoadStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13AppstentUIMac9LoadStateO7failureyA2CmF",
+            "mangledName": "$s13AppstentUIMac9LoadStateO7failureyA2CmF",
+            "moduleName": "AppstentUIMac"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LoadState",
+                "printedName": "AppstentUIMac.LoadState",
+                "usr": "s:13AppstentUIMac9LoadStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LoadState",
+                "printedName": "AppstentUIMac.LoadState",
+                "usr": "s:13AppstentUIMac9LoadStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AppstentUIMac9LoadStateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13AppstentUIMac9LoadStateO2eeoiySbAC_ACtFZ",
+            "moduleName": "AppstentUIMac",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AppstentUIMac9LoadStateO9hashValueSivp",
+            "mangledName": "$s13AppstentUIMac9LoadStateO9hashValueSivp",
+            "moduleName": "AppstentUIMac",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppstentUIMac9LoadStateO9hashValueSivg",
+                "mangledName": "$s13AppstentUIMac9LoadStateO9hashValueSivg",
+                "moduleName": "AppstentUIMac",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AppstentUIMac9LoadStateO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13AppstentUIMac9LoadStateO4hash4intoys6HasherVz_tF",
+            "moduleName": "AppstentUIMac",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13AppstentUIMac9LoadStateO",
+        "mangledName": "$s13AppstentUIMac9LoadStateO",
+        "moduleName": "AppstentUIMac",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
@@ -3947,14 +4184,14 @@
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/RemoteImage.swift",
       "kind": "StringLiteral",
-      "offset": 1230,
+      "offset": 1136,
       "length": 7,
       "value": "\"photo\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/RemoteImage.swift",
       "kind": "StringLiteral",
-      "offset": 1275,
+      "offset": 1181,
       "length": 17,
       "value": "\"multiply.circle\""
     },
@@ -4437,21 +4674,21 @@
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
       "kind": "Array",
-      "offset": 5435,
+      "offset": 5818,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
       "kind": "Array",
-      "offset": 5496,
+      "offset": 5879,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
       "kind": "Array",
-      "offset": 5558,
+      "offset": 5941,
       "length": 2,
       "value": "[]"
     },

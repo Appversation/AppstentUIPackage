@@ -310,6 +310,14 @@ extension SwiftUI.View {
 public protocol CustomContentDataProvider {
   func string(for fieldName: Swift.String) -> Swift.String
 }
+public enum LoadState {
+  case loading, success, failure
+  public static func == (a: AppstentUI.LoadState, b: AppstentUI.LoadState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @dynamicCallable @dynamicMemberLookup public class ViewContent : Swift.Hashable, Foundation.ObservableObject {
   public static func == (lhs: AppstentUI.ViewContent, rhs: AppstentUI.ViewContent) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
@@ -374,3 +382,5 @@ public protocol CustomContentViewProvider {
   func visibility(from visibilityRule: AppstentUI.ViewContent) -> Swift.Bool
 }
 extension AppstentUI.AppstentView : Swift.Sendable {}
+extension AppstentUI.LoadState : Swift.Equatable {}
+extension AppstentUI.LoadState : Swift.Hashable {}
