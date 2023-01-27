@@ -1673,6 +1673,43 @@
         "children": [
           {
             "kind": "Var",
+            "name": "notStarted",
+            "printedName": "notStarted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppstentUI.LoadState.Type) -> AppstentUI.LoadState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoadState",
+                    "printedName": "AppstentUI.LoadState",
+                    "usr": "s:10AppstentUI9LoadStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppstentUI.LoadState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoadState",
+                        "printedName": "AppstentUI.LoadState",
+                        "usr": "s:10AppstentUI9LoadStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10AppstentUI9LoadStateO10notStartedyA2CmF",
+            "mangledName": "$s10AppstentUI9LoadStateO10notStartedyA2CmF",
+            "moduleName": "AppstentUI"
+          },
+          {
+            "kind": "Var",
             "name": "loading",
             "printedName": "loading",
             "children": [
@@ -4399,21 +4436,21 @@
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
       "kind": "Array",
-      "offset": 5818,
+      "offset": 5994,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
       "kind": "Array",
-      "offset": 5879,
+      "offset": 6055,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
       "kind": "Array",
-      "offset": 5941,
+      "offset": 6117,
       "length": 2,
       "value": "[]"
     },

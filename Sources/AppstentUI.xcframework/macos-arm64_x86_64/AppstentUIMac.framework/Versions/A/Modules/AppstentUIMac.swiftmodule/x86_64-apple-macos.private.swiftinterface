@@ -300,7 +300,7 @@ public protocol CustomContentDataProvider {
   func string(for fieldName: Swift.String) -> Swift.String
 }
 public enum LoadState {
-  case loading, success, failure
+  case notStarted, loading, success, failure
   public static func == (a: AppstentUIMac.LoadState, b: AppstentUIMac.LoadState) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
