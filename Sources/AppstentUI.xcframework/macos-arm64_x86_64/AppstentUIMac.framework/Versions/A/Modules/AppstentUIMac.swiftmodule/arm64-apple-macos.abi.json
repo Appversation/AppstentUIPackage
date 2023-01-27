@@ -4221,14 +4221,14 @@
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/RemoteImage.swift",
       "kind": "StringLiteral",
-      "offset": 2380,
+      "offset": 1056,
       "length": 7,
       "value": "\"photo\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/RemoteImage.swift",
       "kind": "StringLiteral",
-      "offset": 2425,
+      "offset": 1101,
       "length": 17,
       "value": "\"multiply.circle\""
     },
