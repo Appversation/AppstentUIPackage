@@ -4221,14 +4221,14 @@
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/RemoteImage.swift",
       "kind": "StringLiteral",
-      "offset": 1136,
+      "offset": 1387,
       "length": 7,
       "value": "\"photo\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/RemoteImage.swift",
       "kind": "StringLiteral",
-      "offset": 1181,
+      "offset": 1432,
       "length": 17,
       "value": "\"multiply.circle\""
     },
@@ -4728,6 +4728,13 @@
       "offset": 6117,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
+      "kind": "FloatLiteral",
+      "offset": 6413,
+      "length": 3,
+      "value": "0.0"
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/DisclosureGroupContentView.swift",
