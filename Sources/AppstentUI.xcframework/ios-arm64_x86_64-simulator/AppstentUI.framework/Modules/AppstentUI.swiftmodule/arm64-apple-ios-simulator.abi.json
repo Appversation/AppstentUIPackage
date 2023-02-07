@@ -4401,21 +4401,21 @@
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/TabBarContentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2965,
+      "offset": 3498,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/TabBarContentView.swift",
       "kind": "FloatLiteral",
-      "offset": 2979,
+      "offset": 3512,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/TabBarContentView.swift",
       "kind": "StringLiteral",
-      "offset": 3240,
+      "offset": 3773,
       "length": 11,
       "value": "\"pageStyle\""
     },
