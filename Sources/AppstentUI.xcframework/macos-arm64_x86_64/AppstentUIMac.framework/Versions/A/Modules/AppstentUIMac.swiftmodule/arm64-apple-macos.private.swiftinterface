@@ -367,8 +367,8 @@ public enum LoadState {
   }
 }
 public protocol CustomContentViewProvider {
-  func customView(from viewContent: AppstentUIMac.ViewContent) -> SwiftUI.AnyView
-  func visibility(from visibilityRule: AppstentUIMac.ViewContent) -> Swift.Bool
+  func customView(from viewName: Swift.String) -> SwiftUI.AnyView
+  func visibility(from ruleName: Swift.String, ruleValue: Swift.String) -> Swift.Bool
 }
 extension AppstentUIMac.AppstentView : Swift.Sendable {}
 extension AppstentUIMac.LoadState : Swift.Equatable {}

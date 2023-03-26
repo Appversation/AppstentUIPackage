@@ -3254,14 +3254,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "ViewContent",
-                "printedName": "AppstentUI.ViewContent",
-                "usr": "s:10AppstentUI11ViewContentC"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10AppstentUI25CustomContentViewProviderP06customE04from05SwiftB003AnyE0VAA0eD0C_tF",
-            "mangledName": "$s10AppstentUI25CustomContentViewProviderP06customE04from05SwiftB003AnyE0VAA0eD0C_tF",
+            "usr": "s:10AppstentUI25CustomContentViewProviderP06customE04from05SwiftB003AnyE0VSS_tF",
+            "mangledName": "$s10AppstentUI25CustomContentViewProviderP06customE04from05SwiftB003AnyE0VSS_tF",
             "moduleName": "AppstentUI",
             "genericSig": "<τ_0_0 where τ_0_0 : AppstentUI.CustomContentViewProvider>",
             "sugared_genericSig": "<Self where Self : AppstentUI.CustomContentViewProvider>",
@@ -3272,7 +3272,7 @@
           {
             "kind": "Function",
             "name": "visibility",
-            "printedName": "visibility(from:)",
+            "printedName": "visibility(from:ruleValue:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3282,14 +3282,20 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "ViewContent",
-                "printedName": "AppstentUI.ViewContent",
-                "usr": "s:10AppstentUI11ViewContentC"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10AppstentUI25CustomContentViewProviderP10visibility4fromSbAA0eD0C_tF",
-            "mangledName": "$s10AppstentUI25CustomContentViewProviderP10visibility4fromSbAA0eD0C_tF",
+            "usr": "s:10AppstentUI25CustomContentViewProviderP10visibility4from9ruleValueSbSS_SStF",
+            "mangledName": "$s10AppstentUI25CustomContentViewProviderP10visibility4from9ruleValueSbSS_SStF",
             "moduleName": "AppstentUI",
             "genericSig": "<τ_0_0 where τ_0_0 : AppstentUI.CustomContentViewProvider>",
             "sugared_genericSig": "<Self where Self : AppstentUI.CustomContentViewProvider>",

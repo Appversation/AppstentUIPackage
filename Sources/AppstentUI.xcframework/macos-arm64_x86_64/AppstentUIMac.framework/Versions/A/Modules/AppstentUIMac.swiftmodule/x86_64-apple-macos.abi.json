@@ -3462,14 +3462,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "ViewContent",
-                "printedName": "AppstentUIMac.ViewContent",
-                "usr": "s:13AppstentUIMac11ViewContentC"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13AppstentUIMac25CustomContentViewProviderP06customE04from7SwiftUI03AnyE0VAA0eD0C_tF",
-            "mangledName": "$s13AppstentUIMac25CustomContentViewProviderP06customE04from7SwiftUI03AnyE0VAA0eD0C_tF",
+            "usr": "s:13AppstentUIMac25CustomContentViewProviderP06customE04from7SwiftUI03AnyE0VSS_tF",
+            "mangledName": "$s13AppstentUIMac25CustomContentViewProviderP06customE04from7SwiftUI03AnyE0VSS_tF",
             "moduleName": "AppstentUIMac",
             "genericSig": "<τ_0_0 where τ_0_0 : AppstentUIMac.CustomContentViewProvider>",
             "sugared_genericSig": "<Self where Self : AppstentUIMac.CustomContentViewProvider>",
@@ -3480,7 +3480,7 @@
           {
             "kind": "Function",
             "name": "visibility",
-            "printedName": "visibility(from:)",
+            "printedName": "visibility(from:ruleValue:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3490,14 +3490,20 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "ViewContent",
-                "printedName": "AppstentUIMac.ViewContent",
-                "usr": "s:13AppstentUIMac11ViewContentC"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13AppstentUIMac25CustomContentViewProviderP10visibility4fromSbAA0eD0C_tF",
-            "mangledName": "$s13AppstentUIMac25CustomContentViewProviderP10visibility4fromSbAA0eD0C_tF",
+            "usr": "s:13AppstentUIMac25CustomContentViewProviderP10visibility4from9ruleValueSbSS_SStF",
+            "mangledName": "$s13AppstentUIMac25CustomContentViewProviderP10visibility4from9ruleValueSbSS_SStF",
             "moduleName": "AppstentUIMac",
             "genericSig": "<τ_0_0 where τ_0_0 : AppstentUIMac.CustomContentViewProvider>",
             "sugared_genericSig": "<Self where Self : AppstentUIMac.CustomContentViewProvider>",
