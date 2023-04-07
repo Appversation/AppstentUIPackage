@@ -58,12 +58,10 @@ extension SwiftUI.View {
         }
         
         let colorString:String = shadow.color
+        let color = ContentFormatUtil.color(from: colorString) ?? .black
         
-        if let radius:Float = shadow.radius,
-           !colorString.isEmpty {
-                        
-            let color = ContentFormatUtil.color(from: colorString) ?? .black
-            
+        if let radius:Float = shadow.radius {
+                                    
             return AnyView(self.shadow(color: color, radius: CGFloat(radius), x: 0.0, y: 0.0))
         }
         
