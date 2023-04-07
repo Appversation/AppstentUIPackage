@@ -296,6 +296,7 @@ public struct CustomTabView : SwiftUI.View {
 }
 public protocol CustomContentDataProvider {
   func string(for fieldName: Swift.String) -> Swift.String
+  func list(for listDataName: Swift.String) -> [Swift.String : Swift.String]
 }
 public enum LoadState {
   case notStarted, loading, success, failure

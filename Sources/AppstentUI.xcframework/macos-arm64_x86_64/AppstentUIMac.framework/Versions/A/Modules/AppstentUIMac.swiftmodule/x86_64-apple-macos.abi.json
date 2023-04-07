@@ -1834,6 +1834,48 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "list",
+            "printedName": "list(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AppstentUIMac25CustomContentDataProviderP4list3forSDyS2SGSS_tF",
+            "mangledName": "$s13AppstentUIMac25CustomContentDataProviderP4list3forSDyS2SGSS_tF",
+            "moduleName": "AppstentUIMac",
+            "genericSig": "<τ_0_0 where τ_0_0 : AppstentUIMac.CustomContentDataProvider>",
+            "sugared_genericSig": "<Self where Self : AppstentUIMac.CustomContentDataProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -4661,28 +4703,28 @@
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/ListContentView.swift",
       "kind": "StringLiteral",
-      "offset": 1723,
+      "offset": 2022,
       "length": 9,
       "value": "\"listStyle\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/ListContentView.swift",
       "kind": "StringLiteral",
-      "offset": 1783,
+      "offset": 2082,
       "length": 16,
       "value": "\"plainListStyle\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/ListContentView.swift",
       "kind": "StringLiteral",
-      "offset": 1864,
+      "offset": 2163,
       "length": 18,
       "value": "\"sidebarListStyle\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/ListContentView.swift",
       "kind": "StringLiteral",
-      "offset": 1949,
+      "offset": 2248,
       "length": 16,
       "value": "\"insetListStyle\""
     },
@@ -4787,28 +4829,28 @@
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 5852,
+      "offset": 6147,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 7066,
+      "offset": 7361,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 8094,
+      "offset": 8389,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 11555,
+      "offset": 11850,
       "length": 2,
       "value": "\"\""
     }
