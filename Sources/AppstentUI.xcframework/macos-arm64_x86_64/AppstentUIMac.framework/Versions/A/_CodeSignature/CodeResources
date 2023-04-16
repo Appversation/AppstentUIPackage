@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		bF+BdjiWZ3IIe+QVig7B6c+W9+E=
+		DhgJGpXiJIX5kZE3DSlCm+grKAA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -22,77 +22,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			byoFbJj2hYK8dQxmWaWhfTGmo17s65s7sN/PcNXbTH4=
+			LMcu9tRhj8MGBsRvhT/uUcmVTAFP4MF3X5WvzdqB6ig=
 			</data>
 		</dict>
 		<key>Modules/AppstentUIMac.swiftmodule/arm64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jQIvZPPbJZ0nt6pqRs3VlRVYaTydjmtQpZS6IOBPMak=
+			YNsI1aWWYby2dXVjpdPLjax3bEXwBIRhvgoFcGwGc0Q=
 			</data>
 		</dict>
 		<key>Modules/AppstentUIMac.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m9+ZxPhRruVP+kXZwhLEpQ/tya1LKNT+LAnAZA/lhbs=
+			Ue/5rGRGJ8uar0jdc1P2AhiSyZD5ltJrLwUVBSMWab0=
 			</data>
 		</dict>
 		<key>Modules/AppstentUIMac.swiftmodule/arm64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IKOWVT1RrSolwz/fYb0X+GGE42lTwwSBXUTF61oRFi4=
+			XouyyUNB2cdRW/vJkz1JBjSdcLp+wIjRDTpMh/zotC0=
 			</data>
 		</dict>
 		<key>Modules/AppstentUIMac.swiftmodule/arm64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m9+ZxPhRruVP+kXZwhLEpQ/tya1LKNT+LAnAZA/lhbs=
+			Ue/5rGRGJ8uar0jdc1P2AhiSyZD5ltJrLwUVBSMWab0=
 			</data>
 		</dict>
 		<key>Modules/AppstentUIMac.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lIWccgth0gY0Z+xz8zfmE8UVvbDUmgMyKuyQB8Bd0sU=
+			z7qOmPlq+/N5qlJ7A0Fbmuv2DcbOpRti9QPJPmlSyC8=
 			</data>
 		</dict>
 		<key>Modules/AppstentUIMac.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jQIvZPPbJZ0nt6pqRs3VlRVYaTydjmtQpZS6IOBPMak=
+			YNsI1aWWYby2dXVjpdPLjax3bEXwBIRhvgoFcGwGc0Q=
 			</data>
 		</dict>
 		<key>Modules/AppstentUIMac.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QcpVJKCPmvw9/rxhWzQqSFh/3n8yZzUP7csDUsmKE6Y=
+			wAEYvSR0TxTqfK0JCqTq+MyLMWiMlS3f73PmdfWDvrI=
 			</data>
 		</dict>
 		<key>Modules/AppstentUIMac.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WK0nkS796I/fPiP59/L5rL4Anl+XvRLlsLNVVYTfnYQ=
+			KOmmwO7rtgq6+cFA23lViqA7FX3Bt7vUAvbSkH7sMFQ=
 			</data>
 		</dict>
 		<key>Modules/AppstentUIMac.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QcpVJKCPmvw9/rxhWzQqSFh/3n8yZzUP7csDUsmKE6Y=
+			wAEYvSR0TxTqfK0JCqTq+MyLMWiMlS3f73PmdfWDvrI=
 			</data>
 		</dict>
 		<key>Modules/AppstentUIMac.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sy+0NAy/C/3pdyygxD9TIz7S7ndaB985zSDFN19LdKw=
+			b3qTsD664e5utyO1F2VdCvjo7uM595RIoiMH8yyop+4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -106,7 +106,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vi59QAmtbuIXm+MHigsvRHx+HROVzxR2UTViM8YpiNQ=
+			3uhWxNrix+YEwF0SBIIBHgal1bykx2YTQPSa16I2bck=
 			</data>
 		</dict>
 	</dict>

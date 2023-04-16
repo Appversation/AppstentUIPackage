@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target x86_64-apple-macos12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AppstentUIMac
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
@@ -35,12 +35,12 @@ public struct AppstentDoc : Swift.Identifiable, Swift.Hashable {
   @objc deinit
 }
 @_Concurrency.MainActor public struct AppstentView : SwiftUI.View {
-  @_Concurrency.MainActor public var customDataProvider: AppstentUIMac.CustomContentDataProvider?
-  @_Concurrency.MainActor public static var customViewProvider: AppstentUIMac.CustomContentViewProvider?
+  @_Concurrency.MainActor public var customDataProvider: (any AppstentUIMac.CustomContentDataProvider)?
+  @_Concurrency.MainActor public static var customViewProvider: (any AppstentUIMac.CustomContentViewProvider)?
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  @_Concurrency.MainActor public init(from viewContent: AppstentUIMac.ViewContent, dataProvider: AppstentUIMac.CustomContentDataProvider? = nil)
+  @_Concurrency.MainActor public init(from viewContent: AppstentUIMac.ViewContent, dataProvider: (any AppstentUIMac.CustomContentDataProvider)? = nil)
   public typealias Body = @_opaqueReturnTypeOf("$s13AppstentUIMac0A4ViewV4bodyQrvp", 0) __
 }
 public struct ContentViewStyle : SwiftUI.ViewModifier {
@@ -296,7 +296,6 @@ public struct CustomTabView : SwiftUI.View {
 }
 public protocol CustomContentDataProvider {
   func string(for fieldName: Swift.String) -> Swift.String
-  func list(for listDataName: Swift.String) -> [Swift.String : Swift.String]
 }
 public enum LoadState {
   case notStarted, loading, success, failure
