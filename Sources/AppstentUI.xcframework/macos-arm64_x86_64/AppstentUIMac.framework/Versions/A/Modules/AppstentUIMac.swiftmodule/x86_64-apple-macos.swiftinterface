@@ -50,6 +50,17 @@ public struct ContentViewStyle : SwiftUI.ViewModifier {
   public typealias Body = @_opaqueReturnTypeOf("$s13AppstentUIMac16ContentViewStyleV4body7contentQr7SwiftUI01_d9Modifier_C0VyACG_tF", 0) __
 }
 extension SwiftUI.View {
+  @inlinable internal func ignoreSafeAreas(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUI.View {
+        
+        let ignoreSafeAreas:Bool = viewContent.ignoreSafeAreas
+        
+        if ignoreSafeAreas {
+            return AnyView(self.edgesIgnoringSafeArea([.top, .bottom]))
+        }
+        
+        return AnyView(self)
+    }
+
   @inlinable public func shadow(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUI.View {
         
         guard let shadow:ViewContent = viewContent.shadow else {
