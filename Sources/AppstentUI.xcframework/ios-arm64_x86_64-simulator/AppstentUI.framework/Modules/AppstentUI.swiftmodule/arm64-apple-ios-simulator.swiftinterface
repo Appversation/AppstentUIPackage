@@ -56,7 +56,7 @@ extension SwiftUI.View {
         let ignoreSafeAreas:Bool = viewContent.ignoreSafeAreas
         
         if ignoreSafeAreas {
-            return AnyView(self.edgesIgnoringSafeArea([.top, .bottom]))
+            return AnyView(self.ignoresSafeArea())
         }
         
         return AnyView(self)
