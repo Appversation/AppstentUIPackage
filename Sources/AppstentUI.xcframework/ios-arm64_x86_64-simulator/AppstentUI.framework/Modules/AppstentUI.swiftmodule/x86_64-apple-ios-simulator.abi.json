@@ -4119,14 +4119,42 @@
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/iOS\/Views\/VideoPlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 674,
+      "offset": 322,
+      "length": 21,
+      "value": "\"inside updateUIView\""
+    },
+    {
+      "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/iOS\/Views\/VideoPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 416,
+      "length": 19,
+      "value": "\"inside makeUIView\""
+    },
+    {
+      "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/iOS\/Views\/VideoPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 746,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/iOS\/Views\/VideoPlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 495,
+      "offset": 878,
+      "length": 52,
+      "value": "\"initializing video with url: \""
+    },
+    {
+      "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/iOS\/Views\/VideoPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 929,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/iOS\/Views\/VideoPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 567,
       "length": 19,
       "value": "\"AppstentUI.LoopingPlayerUIView\""
     },
