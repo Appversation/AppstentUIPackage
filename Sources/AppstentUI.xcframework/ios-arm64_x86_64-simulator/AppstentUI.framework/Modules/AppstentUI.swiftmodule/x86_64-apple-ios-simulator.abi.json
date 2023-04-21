@@ -6121,147 +6121,140 @@
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
       "kind": "StringLiteral",
-      "offset": 6298,
-      "length": 5,
-      "value": "\"mp4\""
-    },
-    {
-      "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 6331,
+      "offset": 6329,
       "length": 8,
       "value": "\"remote\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
       "kind": "StringLiteral",
-      "offset": 6659,
+      "offset": 6657,
       "length": 8,
       "value": "\"autoplay\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
       "kind": "StringLiteral",
-      "offset": 7027,
+      "offset": 7025,
       "length": 8,
       "value": "\"autoLoop\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
       "kind": "StringLiteral",
-      "offset": 7091,
+      "offset": 7089,
       "length": 11,
       "value": "\"scalingMode\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
       "kind": "StringLiteral",
-      "offset": 7418,
+      "offset": 7416,
       "length": 13,
       "value": "\"scaledToFit\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
       "kind": "StringLiteral",
-      "offset": 7756,
+      "offset": 7754,
       "length": 13,
       "value": "\"scaledToFit\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
       "kind": "StringLiteral",
-      "offset": 8092,
+      "offset": 8090,
       "length": 6,
       "value": "\"source\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
       "kind": "StringLiteral",
-      "offset": 8251,
+      "offset": 8249,
       "length": 10,
       "value": "\"sourceType\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
       "kind": "StringLiteral",
-      "offset": 8354,
+      "offset": 8352,
       "length": 10,
       "value": "\"embedded\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
       "kind": "StringLiteral",
-      "offset": 9106,
+      "offset": 9104,
       "length": 6,
       "value": "\"source\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
       "kind": "StringLiteral",
-      "offset": 9549,
+      "offset": 9547,
       "length": 12,
       "value": "\"gradientType\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
       "kind": "StringLiteral",
-      "offset": 9609,
+      "offset": 9607,
       "length": 6,
       "value": "\"colors\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
       "kind": "StringLiteral",
-      "offset": 9816,
+      "offset": 9814,
       "length": 34,
       "value": "\"There are no colors for gradient\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
       "kind": "StringLiteral",
-      "offset": 9946,
+      "offset": 9944,
       "length": 8,
       "value": "\"linear\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
       "kind": "StringLiteral",
-      "offset": 10007,
+      "offset": 10005,
       "length": 10,
       "value": "\"startPoint\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
       "kind": "StringLiteral",
-      "offset": 10067,
+      "offset": 10065,
       "length": 8,
       "value": "\"endPoint\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
       "kind": "StringLiteral",
-      "offset": 10438,
+      "offset": 10436,
       "length": 87,
       "value": "\"couldn't cast Start Point: \""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
       "kind": "StringLiteral",
-      "offset": 10482,
+      "offset": 10480,
       "length": 2,
       "value": "\" or End point: \""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
       "kind": "StringLiteral",
-      "offset": 10511,
+      "offset": 10509,
       "length": 2,
       "value": "\" to UnitPoint\""
     },
     {
       "filePath": "\/Users\/asad\/Documents\/Appstent\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
       "kind": "StringLiteral",
-      "offset": 10627,
+      "offset": 10625,
       "length": 22,
       "value": "\"Returning empty view\""
     },
