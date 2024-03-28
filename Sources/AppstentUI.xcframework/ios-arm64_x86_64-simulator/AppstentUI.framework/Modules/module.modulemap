@@ -1,0 +1,11 @@
+framework module AppstentUI {
+  umbrella header "AppstentUI.h"
+  export *
+
+  module * { export * }
+}
+
+module AppstentUI.Swift {
+  header "AppstentUI-Swift.h"
+  requires objc
+}
