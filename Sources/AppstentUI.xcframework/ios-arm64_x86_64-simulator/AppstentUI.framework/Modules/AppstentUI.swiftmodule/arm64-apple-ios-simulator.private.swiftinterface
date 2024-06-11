@@ -39,12 +39,12 @@ public struct AppstentDoc : Swift.Identifiable, Swift.Hashable {
 }
 @_Concurrency.MainActor public struct AppstentView : SwiftUI.View {
   @_Concurrency.MainActor public var customDataProvider: (any AppstentUI.CustomContentDataProvider)?
-  @_Concurrency.MainActor public var actionHanlder: (any AppstentUI.ActionHandlerProvider)?
   @_Concurrency.MainActor public static var customViewProvider: (any AppstentUI.CustomContentViewProvider)?
+  @_Concurrency.MainActor public static var globalActionHandlerProvider: (any AppstentUI.GlobalActionHandlerProvider)?
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  @_Concurrency.MainActor public init(from viewContent: AppstentUI.ViewContent, dataProvider: (any AppstentUI.CustomContentDataProvider)? = nil)
+  @_Concurrency.MainActor public init(from viewContent: AppstentUI.ViewContent, dataProvider: (any AppstentUI.CustomContentDataProvider)? = nil, tapHandler: (any AppstentUI.ActionHandlerProvider)? = nil)
   public typealias Body = @_opaqueReturnTypeOf("$s10AppstentUI0A4ViewV4bodyQrvp", 0) __
 }
 public struct ContentViewStyle : SwiftUI.ViewModifier {
@@ -332,6 +332,9 @@ public enum LoadState {
 }
 public protocol ActionHandlerProvider {
   func tapHandler(with gestureData: [Swift.String : Swift.AnyObject]?) -> () -> Swift.Void
+}
+public protocol GlobalActionHandlerProvider {
+  func tapHandler(for viewName: Swift.String, with gestureData: [Swift.String : Swift.AnyObject]?) -> () -> Swift.Void
 }
 @dynamicCallable @dynamicMemberLookup public class ViewContent : Swift.Hashable, Foundation.ObservableObject {
   public static func == (lhs: AppstentUI.ViewContent, rhs: AppstentUI.ViewContent) -> Swift.Bool

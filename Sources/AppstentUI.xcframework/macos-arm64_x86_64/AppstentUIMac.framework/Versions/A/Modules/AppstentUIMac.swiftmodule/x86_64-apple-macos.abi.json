@@ -1177,117 +1177,6 @@
           },
           {
             "kind": "Var",
-            "name": "actionHanlder",
-            "printedName": "actionHanlder",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AppstentUIMac.ActionHandlerProvider?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ActionHandlerProvider",
-                    "printedName": "AppstentUIMac.ActionHandlerProvider",
-                    "usr": "s:13AppstentUIMac21ActionHandlerProviderP"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13AppstentUIMac0A4ViewV13actionHanlderAA21ActionHandlerProvider_pSgvp",
-            "mangledName": "$s13AppstentUIMac0A4ViewV13actionHanlderAA21ActionHandlerProvider_pSgvp",
-            "moduleName": "AppstentUIMac",
-            "declAttributes": [
-              "Custom",
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "AppstentUIMac.ActionHandlerProvider?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ActionHandlerProvider",
-                        "printedName": "AppstentUIMac.ActionHandlerProvider",
-                        "usr": "s:13AppstentUIMac21ActionHandlerProviderP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13AppstentUIMac0A4ViewV13actionHanlderAA21ActionHandlerProvider_pSgvg",
-                "mangledName": "$s13AppstentUIMac0A4ViewV13actionHanlderAA21ActionHandlerProvider_pSgvg",
-                "moduleName": "AppstentUIMac",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "AppstentUIMac.ActionHandlerProvider?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ActionHandlerProvider",
-                        "printedName": "AppstentUIMac.ActionHandlerProvider",
-                        "usr": "s:13AppstentUIMac21ActionHandlerProviderP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13AppstentUIMac0A4ViewV13actionHanlderAA21ActionHandlerProvider_pSgvs",
-                "mangledName": "$s13AppstentUIMac0A4ViewV13actionHanlderAA21ActionHandlerProvider_pSgvs",
-                "moduleName": "AppstentUIMac",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13AppstentUIMac0A4ViewV13actionHanlderAA21ActionHandlerProvider_pSgvM",
-                "mangledName": "$s13AppstentUIMac0A4ViewV13actionHanlderAA21ActionHandlerProvider_pSgvM",
-                "moduleName": "AppstentUIMac",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "customViewProvider",
             "printedName": "customViewProvider",
             "children": [
@@ -1403,6 +1292,121 @@
           },
           {
             "kind": "Var",
+            "name": "globalActionHandlerProvider",
+            "printedName": "globalActionHandlerProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AppstentUIMac.GlobalActionHandlerProvider?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GlobalActionHandlerProvider",
+                    "printedName": "AppstentUIMac.GlobalActionHandlerProvider",
+                    "usr": "s:13AppstentUIMac27GlobalActionHandlerProviderP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AppstentUIMac0A4ViewV27globalActionHandlerProviderAA06GlobalefG0_pSgvpZ",
+            "mangledName": "$s13AppstentUIMac0A4ViewV27globalActionHandlerProviderAA06GlobalefG0_pSgvpZ",
+            "moduleName": "AppstentUIMac",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AppstentUIMac.GlobalActionHandlerProvider?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GlobalActionHandlerProvider",
+                        "printedName": "AppstentUIMac.GlobalActionHandlerProvider",
+                        "usr": "s:13AppstentUIMac27GlobalActionHandlerProviderP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppstentUIMac0A4ViewV27globalActionHandlerProviderAA06GlobalefG0_pSgvgZ",
+                "mangledName": "$s13AppstentUIMac0A4ViewV27globalActionHandlerProviderAA06GlobalefG0_pSgvgZ",
+                "moduleName": "AppstentUIMac",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AppstentUIMac.GlobalActionHandlerProvider?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GlobalActionHandlerProvider",
+                        "printedName": "AppstentUIMac.GlobalActionHandlerProvider",
+                        "usr": "s:13AppstentUIMac27GlobalActionHandlerProviderP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppstentUIMac0A4ViewV27globalActionHandlerProviderAA06GlobalefG0_pSgvsZ",
+                "mangledName": "$s13AppstentUIMac0A4ViewV27globalActionHandlerProviderAA06GlobalefG0_pSgvsZ",
+                "moduleName": "AppstentUIMac",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppstentUIMac0A4ViewV27globalActionHandlerProviderAA06GlobalefG0_pSgvMZ",
+                "mangledName": "$s13AppstentUIMac0A4ViewV27globalActionHandlerProviderAA06GlobalefG0_pSgvMZ",
+                "moduleName": "AppstentUIMac",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "body",
             "printedName": "body",
             "children": [
@@ -1459,7 +1463,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(from:dataProvider:)",
+            "printedName": "init(from:dataProvider:tapHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1487,11 +1491,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AppstentUIMac.ActionHandlerProvider?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActionHandlerProvider",
+                    "printedName": "AppstentUIMac.ActionHandlerProvider",
+                    "usr": "s:13AppstentUIMac21ActionHandlerProviderP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13AppstentUIMac0A4ViewV4from12dataProviderAcA0C7ContentC_AA06Customg4DataF0_pSgtcfc",
-            "mangledName": "$s13AppstentUIMac0A4ViewV4from12dataProviderAcA0C7ContentC_AA06Customg4DataF0_pSgtcfc",
+            "usr": "s:13AppstentUIMac0A4ViewV4from12dataProvider10tapHandlerAcA0C7ContentC_AA06Customi4DataF0_pSgAA06ActionhF0_pSgtcfc",
+            "mangledName": "$s13AppstentUIMac0A4ViewV4from12dataProvider10tapHandlerAcA0C7ContentC_AA06Customi4DataF0_pSgAA06ActionhF0_pSgtcfc",
             "moduleName": "AppstentUIMac",
             "declAttributes": [
               "Custom",
@@ -3061,6 +3080,86 @@
         "declKind": "Protocol",
         "usr": "s:13AppstentUIMac21ActionHandlerProviderP",
         "mangledName": "$s13AppstentUIMac21ActionHandlerProviderP",
+        "moduleName": "AppstentUIMac",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GlobalActionHandlerProvider",
+        "printedName": "GlobalActionHandlerProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "tapHandler",
+            "printedName": "tapHandler(for:with:)",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : AnyObject]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AnyObject]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AppstentUIMac27GlobalActionHandlerProviderP03tapE03for4withyycSS_SDySSyXlGSgtF",
+            "mangledName": "$s13AppstentUIMac27GlobalActionHandlerProviderP03tapE03for4withyycSS_SDySSyXlGSgtF",
+            "moduleName": "AppstentUIMac",
+            "genericSig": "<τ_0_0 where τ_0_0 : AppstentUIMac.GlobalActionHandlerProvider>",
+            "sugared_genericSig": "<Self where Self : AppstentUIMac.GlobalActionHandlerProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13AppstentUIMac27GlobalActionHandlerProviderP",
+        "mangledName": "$s13AppstentUIMac27GlobalActionHandlerProviderP",
         "moduleName": "AppstentUIMac",
         "declAttributes": [
           "AccessControl"
@@ -5844,322 +5943,329 @@
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 809,
-      "length": 10,
-      "value": "\"tapHandler\""
+      "offset": 887,
+      "length": 14,
+      "value": "\"tapHandlerData\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 1364,
+      "offset": 1076,
+      "length": 14,
+      "value": "\"tapHandlerName\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
+      "kind": "StringLiteral",
+      "offset": 1689,
       "length": 4,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 1630,
+      "offset": 1955,
       "length": 9,
       "value": "\"divider\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 1692,
+      "offset": 2017,
       "length": 8,
       "value": "\"spacer\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 1764,
+      "offset": 2089,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 1832,
+      "offset": 2157,
       "length": 6,
       "value": "\"link\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 1900,
+      "offset": 2225,
       "length": 7,
       "value": "\"image\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 1970,
+      "offset": 2295,
       "length": 7,
       "value": "\"video\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 2040,
+      "offset": 2365,
       "length": 9,
       "value": "\"webView\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 2110,
+      "offset": 2435,
       "length": 12,
       "value": "\"tabbedView\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 2202,
+      "offset": 2527,
       "length": 16,
       "value": "\"navigationView\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 2302,
+      "offset": 2627,
       "length": 16,
       "value": "\"navigationLink\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 2406,
+      "offset": 2731,
       "length": 6,
       "value": "\"list\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 2490,
+      "offset": 2815,
       "length": 6,
       "value": "\"grid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 2574,
+      "offset": 2899,
       "length": 8,
       "value": "\"hStack\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 2731,
+      "offset": 3056,
       "length": 8,
       "value": "\"vStack\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 2888,
+      "offset": 3213,
       "length": 8,
       "value": "\"zStack\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 3045,
+      "offset": 3370,
       "length": 17,
       "value": "\"disclosureGroup\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 3151,
+      "offset": 3476,
       "length": 6,
       "value": "\"menu\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 3248,
+      "offset": 3573,
       "length": 8,
       "value": "\"custom\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 3333,
+      "offset": 3658,
       "length": 10,
       "value": "\"included\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 3422,
+      "offset": 3747,
       "length": 14,
       "value": "\"gradientView\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 3684,
+      "offset": 4009,
       "length": 10,
       "value": "\"visibility\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3728,
+      "offset": 4053,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 3832,
+      "offset": 4157,
       "length": 8,
       "value": "\"ruleName\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 3881,
+      "offset": 4206,
       "length": 9,
       "value": "\"ruleValue\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 4511,
+      "offset": 4836,
       "length": 10,
       "value": "\"schedule\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 4577,
+      "offset": 4902,
       "length": 6,
       "value": "\"starts\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 4635,
+      "offset": 4960,
       "length": 8,
       "value": "\"duration\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 4756,
+      "offset": 5081,
       "length": 21,
       "value": "\"MM\/dd\/yyyy HH:mm:ss\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 4836,
+      "offset": 5161,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5264,
+      "offset": 5589,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 5433,
+      "offset": 5758,
       "length": 7,
       "value": "\"daily\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 5497,
+      "offset": 5822,
       "length": 6,
       "value": "\"starts\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 5557,
+      "offset": 5882,
       "length": 3,
       "value": "\"end\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "StringLiteral",
-      "offset": 5657,
+      "offset": 5982,
       "length": 7,
       "value": "\"HH:mm\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6414,
+      "offset": 6739,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6419,
+      "offset": 6744,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6464,
+      "offset": 6789,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6555,
+      "offset": 6880,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6560,
+      "offset": 6885,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6598,
+      "offset": 6923,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6689,
+      "offset": 7014,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6694,
+      "offset": 7019,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6737,
+      "offset": 7062,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7083,
+      "offset": 7408,
       "length": 5,
       "value": "false"
     },
