@@ -323,7 +323,7 @@ public protocol ActionHandlerProvider {
   func tapHandler(with gestureData: [Swift.String : Swift.AnyObject]?) -> () -> Swift.Void
 }
 public protocol GlobalActionHandlerProvider {
-  func tapHandler(for viewName: Swift.String, with gestureData: [Swift.String : Swift.AnyObject]?) -> () -> Swift.Void
+  func tapHandler(for handlerName: Swift.String, with gestureData: [Swift.String : Swift.AnyObject]?) -> () -> Swift.Void
 }
 @dynamicCallable @dynamicMemberLookup public class ViewContent : Swift.Hashable, Foundation.ObservableObject {
   public static func == (lhs: AppstentUIMac.ViewContent, rhs: AppstentUIMac.ViewContent) -> Swift.Bool
