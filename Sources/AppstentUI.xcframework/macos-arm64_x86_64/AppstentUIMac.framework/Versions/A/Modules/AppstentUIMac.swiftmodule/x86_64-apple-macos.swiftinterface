@@ -38,6 +38,7 @@ public struct AppstentDoc : Swift.Identifiable, Swift.Hashable {
 }
 @_Concurrency.MainActor public struct AppstentView : SwiftUI.View {
   @_Concurrency.MainActor public var customDataProvider: (any AppstentUIMac.CustomContentDataProvider)?
+  @_Concurrency.MainActor public var actionHanlder: (any AppstentUIMac.ActionHandlerProvider)?
   @_Concurrency.MainActor public static var customViewProvider: (any AppstentUIMac.CustomContentViewProvider)?
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
@@ -318,6 +319,9 @@ public enum LoadState {
     get
   }
 }
+public protocol ActionHandlerProvider {
+  func tapHandler(with gestureData: [Swift.String : Swift.AnyObject]?) -> () -> Swift.Void
+}
 @dynamicCallable @dynamicMemberLookup public class ViewContent : Swift.Hashable, Foundation.ObservableObject {
   public static func == (lhs: AppstentUIMac.ViewContent, rhs: AppstentUIMac.ViewContent) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
@@ -348,6 +352,9 @@ public enum LoadState {
     get
   }
   public subscript(dynamicMember member: Swift.String) -> AppstentUIMac.ViewContent? {
+    get
+  }
+  public subscript(dynamicMember member: Swift.String) -> [Swift.String : Swift.AnyObject]? {
     get
   }
   public subscript(dynamicMember member: Swift.String) -> Swift.Float? {
