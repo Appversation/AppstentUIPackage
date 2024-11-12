@@ -1072,12 +1072,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AppstentUIMac.CustomContentDataProvider?",
+                "printedName": "(any AppstentUIMac.CustomContentDataProvider)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CustomContentDataProvider",
-                    "printedName": "AppstentUIMac.CustomContentDataProvider",
+                    "printedName": "any AppstentUIMac.CustomContentDataProvider",
                     "usr": "s:13AppstentUIMac25CustomContentDataProviderP"
                   }
                 ],
@@ -1089,9 +1089,9 @@
             "mangledName": "$s13AppstentUIMac0A4ViewV18customDataProviderAA013CustomContenteF0_pSgvp",
             "moduleName": "AppstentUIMac",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1104,12 +1104,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AppstentUIMac.CustomContentDataProvider?",
+                    "printedName": "(any AppstentUIMac.CustomContentDataProvider)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CustomContentDataProvider",
-                        "printedName": "AppstentUIMac.CustomContentDataProvider",
+                        "printedName": "any AppstentUIMac.CustomContentDataProvider",
                         "usr": "s:13AppstentUIMac25CustomContentDataProviderP"
                       }
                     ],
@@ -1136,12 +1136,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AppstentUIMac.CustomContentDataProvider?",
+                    "printedName": "(any AppstentUIMac.CustomContentDataProvider)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CustomContentDataProvider",
-                        "printedName": "AppstentUIMac.CustomContentDataProvider",
+                        "printedName": "any AppstentUIMac.CustomContentDataProvider",
                         "usr": "s:13AppstentUIMac25CustomContentDataProviderP"
                       }
                     ],
@@ -1183,12 +1183,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AppstentUIMac.CustomContentViewProvider?",
+                "printedName": "(any AppstentUIMac.CustomContentViewProvider)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CustomContentViewProvider",
-                    "printedName": "AppstentUIMac.CustomContentViewProvider",
+                    "printedName": "any AppstentUIMac.CustomContentViewProvider",
                     "usr": "s:13AppstentUIMac25CustomContentViewProviderP"
                   }
                 ],
@@ -1201,9 +1201,9 @@
             "moduleName": "AppstentUIMac",
             "static": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1216,12 +1216,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AppstentUIMac.CustomContentViewProvider?",
+                    "printedName": "(any AppstentUIMac.CustomContentViewProvider)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CustomContentViewProvider",
-                        "printedName": "AppstentUIMac.CustomContentViewProvider",
+                        "printedName": "any AppstentUIMac.CustomContentViewProvider",
                         "usr": "s:13AppstentUIMac25CustomContentViewProviderP"
                       }
                     ],
@@ -1249,12 +1249,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AppstentUIMac.CustomContentViewProvider?",
+                    "printedName": "(any AppstentUIMac.CustomContentViewProvider)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CustomContentViewProvider",
-                        "printedName": "AppstentUIMac.CustomContentViewProvider",
+                        "printedName": "any AppstentUIMac.CustomContentViewProvider",
                         "usr": "s:13AppstentUIMac25CustomContentViewProviderP"
                       }
                     ],
@@ -1298,12 +1298,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AppstentUIMac.GlobalActionHandlerProvider?",
+                "printedName": "(any AppstentUIMac.GlobalActionHandlerProvider)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "GlobalActionHandlerProvider",
-                    "printedName": "AppstentUIMac.GlobalActionHandlerProvider",
+                    "printedName": "any AppstentUIMac.GlobalActionHandlerProvider",
                     "usr": "s:13AppstentUIMac27GlobalActionHandlerProviderP"
                   }
                 ],
@@ -1316,9 +1316,9 @@
             "moduleName": "AppstentUIMac",
             "static": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1331,12 +1331,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AppstentUIMac.GlobalActionHandlerProvider?",
+                    "printedName": "(any AppstentUIMac.GlobalActionHandlerProvider)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "GlobalActionHandlerProvider",
-                        "printedName": "AppstentUIMac.GlobalActionHandlerProvider",
+                        "printedName": "any AppstentUIMac.GlobalActionHandlerProvider",
                         "usr": "s:13AppstentUIMac27GlobalActionHandlerProviderP"
                       }
                     ],
@@ -1364,12 +1364,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AppstentUIMac.GlobalActionHandlerProvider?",
+                    "printedName": "(any AppstentUIMac.GlobalActionHandlerProvider)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "GlobalActionHandlerProvider",
-                        "printedName": "AppstentUIMac.GlobalActionHandlerProvider",
+                        "printedName": "any AppstentUIMac.GlobalActionHandlerProvider",
                         "usr": "s:13AppstentUIMac27GlobalActionHandlerProviderP"
                       }
                     ],
@@ -1412,9 +1412,16 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "AnyView",
-                "printedName": "SwiftUI.AnyView",
-                "usr": "s:7SwiftUI7AnyViewV"
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
               }
             ],
             "declKind": "Var",
@@ -1433,9 +1440,16 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "AnyView",
-                    "printedName": "SwiftUI.AnyView",
-                    "usr": "s:7SwiftUI7AnyViewV"
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
                   }
                 ],
                 "declKind": "Accessor",
@@ -1466,12 +1480,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AppstentUIMac.CustomContentDataProvider?",
+                "printedName": "(any AppstentUIMac.CustomContentDataProvider)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CustomContentDataProvider",
-                    "printedName": "AppstentUIMac.CustomContentDataProvider",
+                    "printedName": "any AppstentUIMac.CustomContentDataProvider",
                     "usr": "s:13AppstentUIMac25CustomContentDataProviderP"
                   }
                 ],
@@ -1481,12 +1495,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AppstentUIMac.ActionHandlerProvider?",
+                "printedName": "(any AppstentUIMac.ActionHandlerProvider)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ActionHandlerProvider",
-                    "printedName": "AppstentUIMac.ActionHandlerProvider",
+                    "printedName": "any AppstentUIMac.ActionHandlerProvider",
                     "usr": "s:13AppstentUIMac21ActionHandlerProviderP"
                   }
                 ],
@@ -1526,9 +1540,16 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "AnyView",
-                    "printedName": "SwiftUI.AnyView",
-                    "usr": "s:7SwiftUI7AnyViewV"
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
                   }
                 ]
               }
@@ -1584,9 +1605,16 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "AnyView",
-                "printedName": "SwiftUI.AnyView",
-                "usr": "s:7SwiftUI7AnyViewV"
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
               },
               {
                 "kind": "TypeNominal",
@@ -1661,9 +1689,16 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "AnyView",
-                    "printedName": "SwiftUI.AnyView",
-                    "usr": "s:7SwiftUI7AnyViewV"
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
                   }
                 ]
               }
@@ -1759,123 +1794,16 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ModifiedContent",
-                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>>",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ModifiedContent",
-                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "HStack",
-                        "printedName": "SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "TupleView",
-                            "printedName": "SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Tuple",
-                                "printedName": "(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "Spacer",
-                                    "printedName": "SwiftUI.Spacer",
-                                    "usr": "s:7SwiftUI6SpacerV"
-                                  },
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "ForEach",
-                                    "printedName": "SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>",
-                                    "children": [
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "Range",
-                                        "printedName": "Swift.Range<Swift.Int>",
-                                        "children": [
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "Int",
-                                            "printedName": "Swift.Int",
-                                            "usr": "s:Si"
-                                          }
-                                        ],
-                                        "usr": "s:Sn"
-                                      },
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "Int",
-                                        "printedName": "Swift.Int",
-                                        "usr": "s:Si"
-                                      },
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "OpaqueTypeArchetype",
-                                        "printedName": "some SwiftUI.View",
-                                        "children": [
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "View",
-                                            "printedName": "SwiftUI.View",
-                                            "usr": "s:7SwiftUI4ViewP"
-                                          }
-                                        ]
-                                      }
-                                    ],
-                                    "usr": "s:7SwiftUI7ForEachV"
-                                  },
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "Spacer",
-                                    "printedName": "SwiftUI.Spacer",
-                                    "usr": "s:7SwiftUI6SpacerV"
-                                  }
-                                ]
-                              }
-                            ],
-                            "usr": "s:7SwiftUI9TupleViewV"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI6HStackV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "_BackgroundStyleModifier",
-                        "printedName": "SwiftUI._BackgroundStyleModifier<SwiftUI.Color>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Color",
-                            "printedName": "SwiftUI.Color",
-                            "usr": "s:7SwiftUI5ColorV"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI24_BackgroundStyleModifierV"
-                      }
-                    ],
-                    "usr": "s:7SwiftUI15ModifiedContentV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "_TraitWritingModifier",
-                    "printedName": "SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ZIndexTraitKey",
-                        "printedName": "SwiftUI.ZIndexTraitKey",
-                        "usr": "s:7SwiftUI14ZIndexTraitKeyV"
-                      }
-                    ],
-                    "usr": "s:7SwiftUI21_TraitWritingModifierV"
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
                   }
-                ],
-                "usr": "s:7SwiftUI15ModifiedContentV"
+                ]
               }
             ],
             "declKind": "Var",
@@ -1893,123 +1821,16 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ModifiedContent",
-                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>>",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "ModifiedContent",
-                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "HStack",
-                            "printedName": "SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "TupleView",
-                                "printedName": "SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "Tuple",
-                                    "printedName": "(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)",
-                                    "children": [
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "Spacer",
-                                        "printedName": "SwiftUI.Spacer",
-                                        "usr": "s:7SwiftUI6SpacerV"
-                                      },
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "ForEach",
-                                        "printedName": "SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>",
-                                        "children": [
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "Range",
-                                            "printedName": "Swift.Range<Swift.Int>",
-                                            "children": [
-                                              {
-                                                "kind": "TypeNominal",
-                                                "name": "Int",
-                                                "printedName": "Swift.Int",
-                                                "usr": "s:Si"
-                                              }
-                                            ],
-                                            "usr": "s:Sn"
-                                          },
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "Int",
-                                            "printedName": "Swift.Int",
-                                            "usr": "s:Si"
-                                          },
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "OpaqueTypeArchetype",
-                                            "printedName": "some SwiftUI.View",
-                                            "children": [
-                                              {
-                                                "kind": "TypeNominal",
-                                                "name": "View",
-                                                "printedName": "SwiftUI.View",
-                                                "usr": "s:7SwiftUI4ViewP"
-                                              }
-                                            ]
-                                          }
-                                        ],
-                                        "usr": "s:7SwiftUI7ForEachV"
-                                      },
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "Spacer",
-                                        "printedName": "SwiftUI.Spacer",
-                                        "usr": "s:7SwiftUI6SpacerV"
-                                      }
-                                    ]
-                                  }
-                                ],
-                                "usr": "s:7SwiftUI9TupleViewV"
-                              }
-                            ],
-                            "usr": "s:7SwiftUI6HStackV"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "_BackgroundStyleModifier",
-                            "printedName": "SwiftUI._BackgroundStyleModifier<SwiftUI.Color>",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Color",
-                                "printedName": "SwiftUI.Color",
-                                "usr": "s:7SwiftUI5ColorV"
-                              }
-                            ],
-                            "usr": "s:7SwiftUI24_BackgroundStyleModifierV"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI15ModifiedContentV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "_TraitWritingModifier",
-                        "printedName": "SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ZIndexTraitKey",
-                            "printedName": "SwiftUI.ZIndexTraitKey",
-                            "usr": "s:7SwiftUI14ZIndexTraitKeyV"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI21_TraitWritingModifierV"
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
                       }
-                    ],
-                    "usr": "s:7SwiftUI15ModifiedContentV"
+                    ]
                   }
                 ],
                 "declKind": "Accessor",
@@ -2027,180 +1848,16 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ModifiedContent",
-                "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.AnyView, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>>)>>, SwiftUI._PaddingLayout>",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "VStack",
-                    "printedName": "SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.AnyView, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>>)>>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TupleView",
-                        "printedName": "SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.AnyView, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>>)>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Tuple",
-                            "printedName": "(SwiftUI.ModifiedContent<SwiftUI.AnyView, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>>)",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ModifiedContent",
-                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.AnyView, SwiftUI._PaddingLayout>",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "AnyView",
-                                    "printedName": "SwiftUI.AnyView",
-                                    "usr": "s:7SwiftUI7AnyViewV"
-                                  },
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "_PaddingLayout",
-                                    "printedName": "SwiftUI._PaddingLayout",
-                                    "usr": "s:7SwiftUI14_PaddingLayoutV"
-                                  }
-                                ],
-                                "usr": "s:7SwiftUI15ModifiedContentV"
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ModifiedContent",
-                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>>",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "ModifiedContent",
-                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>",
-                                    "children": [
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "HStack",
-                                        "printedName": "SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>",
-                                        "children": [
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "TupleView",
-                                            "printedName": "SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>",
-                                            "children": [
-                                              {
-                                                "kind": "TypeNominal",
-                                                "name": "Tuple",
-                                                "printedName": "(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)",
-                                                "children": [
-                                                  {
-                                                    "kind": "TypeNominal",
-                                                    "name": "Spacer",
-                                                    "printedName": "SwiftUI.Spacer",
-                                                    "usr": "s:7SwiftUI6SpacerV"
-                                                  },
-                                                  {
-                                                    "kind": "TypeNominal",
-                                                    "name": "ForEach",
-                                                    "printedName": "SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>",
-                                                    "children": [
-                                                      {
-                                                        "kind": "TypeNominal",
-                                                        "name": "Range",
-                                                        "printedName": "Swift.Range<Swift.Int>",
-                                                        "children": [
-                                                          {
-                                                            "kind": "TypeNominal",
-                                                            "name": "Int",
-                                                            "printedName": "Swift.Int",
-                                                            "usr": "s:Si"
-                                                          }
-                                                        ],
-                                                        "usr": "s:Sn"
-                                                      },
-                                                      {
-                                                        "kind": "TypeNominal",
-                                                        "name": "Int",
-                                                        "printedName": "Swift.Int",
-                                                        "usr": "s:Si"
-                                                      },
-                                                      {
-                                                        "kind": "TypeNominal",
-                                                        "name": "OpaqueTypeArchetype",
-                                                        "printedName": "some SwiftUI.View",
-                                                        "children": [
-                                                          {
-                                                            "kind": "TypeNominal",
-                                                            "name": "View",
-                                                            "printedName": "SwiftUI.View",
-                                                            "usr": "s:7SwiftUI4ViewP"
-                                                          }
-                                                        ]
-                                                      }
-                                                    ],
-                                                    "usr": "s:7SwiftUI7ForEachV"
-                                                  },
-                                                  {
-                                                    "kind": "TypeNominal",
-                                                    "name": "Spacer",
-                                                    "printedName": "SwiftUI.Spacer",
-                                                    "usr": "s:7SwiftUI6SpacerV"
-                                                  }
-                                                ]
-                                              }
-                                            ],
-                                            "usr": "s:7SwiftUI9TupleViewV"
-                                          }
-                                        ],
-                                        "usr": "s:7SwiftUI6HStackV"
-                                      },
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "_BackgroundStyleModifier",
-                                        "printedName": "SwiftUI._BackgroundStyleModifier<SwiftUI.Color>",
-                                        "children": [
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "Color",
-                                            "printedName": "SwiftUI.Color",
-                                            "usr": "s:7SwiftUI5ColorV"
-                                          }
-                                        ],
-                                        "usr": "s:7SwiftUI24_BackgroundStyleModifierV"
-                                      }
-                                    ],
-                                    "usr": "s:7SwiftUI15ModifiedContentV"
-                                  },
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "_TraitWritingModifier",
-                                    "printedName": "SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>",
-                                    "children": [
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "ZIndexTraitKey",
-                                        "printedName": "SwiftUI.ZIndexTraitKey",
-                                        "usr": "s:7SwiftUI14ZIndexTraitKeyV"
-                                      }
-                                    ],
-                                    "usr": "s:7SwiftUI21_TraitWritingModifierV"
-                                  }
-                                ],
-                                "usr": "s:7SwiftUI15ModifiedContentV"
-                              }
-                            ]
-                          }
-                        ],
-                        "usr": "s:7SwiftUI9TupleViewV"
-                      }
-                    ],
-                    "usr": "s:7SwiftUI6VStackV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "_PaddingLayout",
-                    "printedName": "SwiftUI._PaddingLayout",
-                    "usr": "s:7SwiftUI14_PaddingLayoutV"
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
                   }
-                ],
-                "usr": "s:7SwiftUI15ModifiedContentV"
+                ]
               }
             ],
             "declKind": "Var",
@@ -2219,180 +1876,16 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ModifiedContent",
-                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.AnyView, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>>)>>, SwiftUI._PaddingLayout>",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "VStack",
-                        "printedName": "SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.AnyView, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>>)>>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "TupleView",
-                            "printedName": "SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.AnyView, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>>)>",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Tuple",
-                                "printedName": "(SwiftUI.ModifiedContent<SwiftUI.AnyView, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>>)",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "ModifiedContent",
-                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.AnyView, SwiftUI._PaddingLayout>",
-                                    "children": [
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "AnyView",
-                                        "printedName": "SwiftUI.AnyView",
-                                        "usr": "s:7SwiftUI7AnyViewV"
-                                      },
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "_PaddingLayout",
-                                        "printedName": "SwiftUI._PaddingLayout",
-                                        "usr": "s:7SwiftUI14_PaddingLayoutV"
-                                      }
-                                    ],
-                                    "usr": "s:7SwiftUI15ModifiedContentV"
-                                  },
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "ModifiedContent",
-                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>>",
-                                    "children": [
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "ModifiedContent",
-                                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>",
-                                        "children": [
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "HStack",
-                                            "printedName": "SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>",
-                                            "children": [
-                                              {
-                                                "kind": "TypeNominal",
-                                                "name": "TupleView",
-                                                "printedName": "SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>",
-                                                "children": [
-                                                  {
-                                                    "kind": "TypeNominal",
-                                                    "name": "Tuple",
-                                                    "printedName": "(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)",
-                                                    "children": [
-                                                      {
-                                                        "kind": "TypeNominal",
-                                                        "name": "Spacer",
-                                                        "printedName": "SwiftUI.Spacer",
-                                                        "usr": "s:7SwiftUI6SpacerV"
-                                                      },
-                                                      {
-                                                        "kind": "TypeNominal",
-                                                        "name": "ForEach",
-                                                        "printedName": "SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>",
-                                                        "children": [
-                                                          {
-                                                            "kind": "TypeNominal",
-                                                            "name": "Range",
-                                                            "printedName": "Swift.Range<Swift.Int>",
-                                                            "children": [
-                                                              {
-                                                                "kind": "TypeNominal",
-                                                                "name": "Int",
-                                                                "printedName": "Swift.Int",
-                                                                "usr": "s:Si"
-                                                              }
-                                                            ],
-                                                            "usr": "s:Sn"
-                                                          },
-                                                          {
-                                                            "kind": "TypeNominal",
-                                                            "name": "Int",
-                                                            "printedName": "Swift.Int",
-                                                            "usr": "s:Si"
-                                                          },
-                                                          {
-                                                            "kind": "TypeNominal",
-                                                            "name": "OpaqueTypeArchetype",
-                                                            "printedName": "some SwiftUI.View",
-                                                            "children": [
-                                                              {
-                                                                "kind": "TypeNominal",
-                                                                "name": "View",
-                                                                "printedName": "SwiftUI.View",
-                                                                "usr": "s:7SwiftUI4ViewP"
-                                                              }
-                                                            ]
-                                                          }
-                                                        ],
-                                                        "usr": "s:7SwiftUI7ForEachV"
-                                                      },
-                                                      {
-                                                        "kind": "TypeNominal",
-                                                        "name": "Spacer",
-                                                        "printedName": "SwiftUI.Spacer",
-                                                        "usr": "s:7SwiftUI6SpacerV"
-                                                      }
-                                                    ]
-                                                  }
-                                                ],
-                                                "usr": "s:7SwiftUI9TupleViewV"
-                                              }
-                                            ],
-                                            "usr": "s:7SwiftUI6HStackV"
-                                          },
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "_BackgroundStyleModifier",
-                                            "printedName": "SwiftUI._BackgroundStyleModifier<SwiftUI.Color>",
-                                            "children": [
-                                              {
-                                                "kind": "TypeNominal",
-                                                "name": "Color",
-                                                "printedName": "SwiftUI.Color",
-                                                "usr": "s:7SwiftUI5ColorV"
-                                              }
-                                            ],
-                                            "usr": "s:7SwiftUI24_BackgroundStyleModifierV"
-                                          }
-                                        ],
-                                        "usr": "s:7SwiftUI15ModifiedContentV"
-                                      },
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "_TraitWritingModifier",
-                                        "printedName": "SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>",
-                                        "children": [
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "ZIndexTraitKey",
-                                            "printedName": "SwiftUI.ZIndexTraitKey",
-                                            "usr": "s:7SwiftUI14ZIndexTraitKeyV"
-                                          }
-                                        ],
-                                        "usr": "s:7SwiftUI21_TraitWritingModifierV"
-                                      }
-                                    ],
-                                    "usr": "s:7SwiftUI15ModifiedContentV"
-                                  }
-                                ]
-                              }
-                            ],
-                            "usr": "s:7SwiftUI9TupleViewV"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI6VStackV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "_PaddingLayout",
-                        "printedName": "SwiftUI._PaddingLayout",
-                        "usr": "s:7SwiftUI14_PaddingLayoutV"
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
                       }
-                    ],
-                    "usr": "s:7SwiftUI15ModifiedContentV"
+                    ]
                   }
                 ],
                 "declKind": "Accessor",
@@ -2424,180 +1917,16 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ModifiedContent",
-                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.AnyView, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>>)>>, SwiftUI._PaddingLayout>",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "VStack",
-                        "printedName": "SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.AnyView, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>>)>>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "TupleView",
-                            "printedName": "SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.AnyView, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>>)>",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Tuple",
-                                "printedName": "(SwiftUI.ModifiedContent<SwiftUI.AnyView, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>>)",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "ModifiedContent",
-                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.AnyView, SwiftUI._PaddingLayout>",
-                                    "children": [
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "AnyView",
-                                        "printedName": "SwiftUI.AnyView",
-                                        "usr": "s:7SwiftUI7AnyViewV"
-                                      },
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "_PaddingLayout",
-                                        "printedName": "SwiftUI._PaddingLayout",
-                                        "usr": "s:7SwiftUI14_PaddingLayoutV"
-                                      }
-                                    ],
-                                    "usr": "s:7SwiftUI15ModifiedContentV"
-                                  },
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "ModifiedContent",
-                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>>",
-                                    "children": [
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "ModifiedContent",
-                                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>",
-                                        "children": [
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "HStack",
-                                            "printedName": "SwiftUI.HStack<SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>>",
-                                            "children": [
-                                              {
-                                                "kind": "TypeNominal",
-                                                "name": "TupleView",
-                                                "printedName": "SwiftUI.TupleView<(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)>",
-                                                "children": [
-                                                  {
-                                                    "kind": "TypeNominal",
-                                                    "name": "Tuple",
-                                                    "printedName": "(SwiftUI.Spacer, SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>, SwiftUI.Spacer)",
-                                                    "children": [
-                                                      {
-                                                        "kind": "TypeNominal",
-                                                        "name": "Spacer",
-                                                        "printedName": "SwiftUI.Spacer",
-                                                        "usr": "s:7SwiftUI6SpacerV"
-                                                      },
-                                                      {
-                                                        "kind": "TypeNominal",
-                                                        "name": "ForEach",
-                                                        "printedName": "SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, some SwiftUI.View>",
-                                                        "children": [
-                                                          {
-                                                            "kind": "TypeNominal",
-                                                            "name": "Range",
-                                                            "printedName": "Swift.Range<Swift.Int>",
-                                                            "children": [
-                                                              {
-                                                                "kind": "TypeNominal",
-                                                                "name": "Int",
-                                                                "printedName": "Swift.Int",
-                                                                "usr": "s:Si"
-                                                              }
-                                                            ],
-                                                            "usr": "s:Sn"
-                                                          },
-                                                          {
-                                                            "kind": "TypeNominal",
-                                                            "name": "Int",
-                                                            "printedName": "Swift.Int",
-                                                            "usr": "s:Si"
-                                                          },
-                                                          {
-                                                            "kind": "TypeNominal",
-                                                            "name": "OpaqueTypeArchetype",
-                                                            "printedName": "some SwiftUI.View",
-                                                            "children": [
-                                                              {
-                                                                "kind": "TypeNominal",
-                                                                "name": "View",
-                                                                "printedName": "SwiftUI.View",
-                                                                "usr": "s:7SwiftUI4ViewP"
-                                                              }
-                                                            ]
-                                                          }
-                                                        ],
-                                                        "usr": "s:7SwiftUI7ForEachV"
-                                                      },
-                                                      {
-                                                        "kind": "TypeNominal",
-                                                        "name": "Spacer",
-                                                        "printedName": "SwiftUI.Spacer",
-                                                        "usr": "s:7SwiftUI6SpacerV"
-                                                      }
-                                                    ]
-                                                  }
-                                                ],
-                                                "usr": "s:7SwiftUI9TupleViewV"
-                                              }
-                                            ],
-                                            "usr": "s:7SwiftUI6HStackV"
-                                          },
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "_BackgroundStyleModifier",
-                                            "printedName": "SwiftUI._BackgroundStyleModifier<SwiftUI.Color>",
-                                            "children": [
-                                              {
-                                                "kind": "TypeNominal",
-                                                "name": "Color",
-                                                "printedName": "SwiftUI.Color",
-                                                "usr": "s:7SwiftUI5ColorV"
-                                              }
-                                            ],
-                                            "usr": "s:7SwiftUI24_BackgroundStyleModifierV"
-                                          }
-                                        ],
-                                        "usr": "s:7SwiftUI15ModifiedContentV"
-                                      },
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "_TraitWritingModifier",
-                                        "printedName": "SwiftUI._TraitWritingModifier<SwiftUI.ZIndexTraitKey>",
-                                        "children": [
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "ZIndexTraitKey",
-                                            "printedName": "SwiftUI.ZIndexTraitKey",
-                                            "usr": "s:7SwiftUI14ZIndexTraitKeyV"
-                                          }
-                                        ],
-                                        "usr": "s:7SwiftUI21_TraitWritingModifierV"
-                                      }
-                                    ],
-                                    "usr": "s:7SwiftUI15ModifiedContentV"
-                                  }
-                                ]
-                              }
-                            ],
-                            "usr": "s:7SwiftUI9TupleViewV"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI6VStackV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "_PaddingLayout",
-                        "printedName": "SwiftUI._PaddingLayout",
-                        "usr": "s:7SwiftUI14_PaddingLayoutV"
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
                       }
-                    ],
-                    "usr": "s:7SwiftUI15ModifiedContentV"
+                    ]
                   }
                 ]
               }
@@ -5353,153 +4682,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/GridContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 283,
-      "length": 5,
-      "value": "\"views\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/GridContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 343,
-      "length": 8,
-      "value": "\"gridType\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/GridContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 424,
-      "length": 7,
-      "value": "\"numRows\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/GridContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 489,
-      "length": 10,
-      "value": "\"numColumns\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/GridContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 655,
-      "length": 10,
-      "value": "\"rowSpacing\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/GridContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 784,
-      "length": 10,
-      "value": "\"colSpacing\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/GridContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 978,
-      "length": 10,
-      "value": "\"vertical\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/GridContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 1154,
-      "length": 10,
-      "value": "\"numColumns\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/GridContentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1286,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/GridContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 1928,
-      "length": 7,
-      "value": "\"columns\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/GridContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 2477,
-      "length": 7,
-      "value": "\"numRows\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/GridContentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2606,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/GridContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 3239,
-      "length": 4,
-      "value": "\"rows\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/GridContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 4196,
-      "length": 8,
-      "value": "\"itemType\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/GridContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 4260,
-      "length": 5,
-      "value": "\"width\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/GridContentView.swift",
-      "kind": "FloatLiteral",
-      "offset": 4269,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/GridContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 4331,
-      "length": 8,
-      "value": "\"minWidth\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/GridContentView.swift",
-      "kind": "FloatLiteral",
-      "offset": 4343,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/GridContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 4392,
-      "length": 8,
-      "value": "\"maxWidth\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/GridContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 4474,
-      "length": 7,
-      "value": "\"fixed\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/GridContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 4546,
-      "length": 10,
-      "value": "\"flexible\""
-    },
-    {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/View Models\/SwiftUIWebViewModel.swift",
       "kind": "StringLiteral",
       "offset": 215,
@@ -5537,723 +4719,9 @@
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/macOS\/Views\/VideoPlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 758,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/macOS\/Views\/VideoPlayerView.swift",
-      "kind": "StringLiteral",
       "offset": 579,
       "length": 19,
       "value": "\"AppstentUIMac.LoopingPlayerUIView\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 301,
-      "length": 3,
-      "value": "\"#\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 453,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 622,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 681,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 694,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 699,
-      "length": 2,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 711,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 715,
-      "length": 3,
-      "value": "0xF"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 722,
-      "length": 2,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 733,
-      "length": 3,
-      "value": "0xF"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 740,
-      "length": 2,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 769,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 828,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 840,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 851,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 855,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 867,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 898,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 965,
-      "length": 2,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 976,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 981,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 994,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 998,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1010,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1223,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1263,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1303,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1345,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 1647,
-      "length": 12,
-      "value": "\"topLeading\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 1703,
-      "length": 5,
-      "value": "\"top\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 1752,
-      "length": 13,
-      "value": "\"topTrailing\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 1809,
-      "length": 9,
-      "value": "\"leading\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 1862,
-      "length": 8,
-      "value": "\"center\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 1914,
-      "length": 10,
-      "value": "\"trailing\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 1968,
-      "length": 15,
-      "value": "\"bottomLeading\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 2027,
-      "length": 8,
-      "value": "\"bottom\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 2079,
-      "length": 16,
-      "value": "\"bottomTrailing\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 2403,
-      "length": 5,
-      "value": "\"top\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 2452,
-      "length": 8,
-      "value": "\"center\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 2504,
-      "length": 8,
-      "value": "\"bottom\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 2840,
-      "length": 9,
-      "value": "\"leading\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 2893,
-      "length": 8,
-      "value": "\"center\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 2945,
-      "length": 10,
-      "value": "\"trailing\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 3252,
-      "length": 12,
-      "value": "\"topLeading\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 3304,
-      "length": 5,
-      "value": "\"top\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 3349,
-      "length": 13,
-      "value": "\"topTrailing\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 3402,
-      "length": 9,
-      "value": "\"leading\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 3451,
-      "length": 8,
-      "value": "\"center\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 3499,
-      "length": 10,
-      "value": "\"trailing\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 3549,
-      "length": 15,
-      "value": "\"bottomLeading\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 3604,
-      "length": 8,
-      "value": "\"bottom\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 3652,
-      "length": 16,
-      "value": "\"bottomTrailing\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ContentFormatUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 3708,
-      "length": 6,
-      "value": "\"zero\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 1259,
-      "length": 14,
-      "value": "\"tapHandlerName\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 1511,
-      "length": 14,
-      "value": "\"tapHandlerData\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 1700,
-      "length": 14,
-      "value": "\"tapHandlerName\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 2152,
-      "length": 4,
-      "value": "\"type\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 2418,
-      "length": 9,
-      "value": "\"divider\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 2480,
-      "length": 8,
-      "value": "\"spacer\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 2552,
-      "length": 6,
-      "value": "\"text\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 2620,
-      "length": 6,
-      "value": "\"link\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 2688,
-      "length": 7,
-      "value": "\"image\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 2758,
-      "length": 7,
-      "value": "\"video\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 2828,
-      "length": 9,
-      "value": "\"webView\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 2898,
-      "length": 12,
-      "value": "\"tabbedView\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 2990,
-      "length": 16,
-      "value": "\"navigationView\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 3090,
-      "length": 16,
-      "value": "\"navigationLink\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 3194,
-      "length": 6,
-      "value": "\"list\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 3278,
-      "length": 6,
-      "value": "\"grid\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 3362,
-      "length": 8,
-      "value": "\"hStack\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 3519,
-      "length": 8,
-      "value": "\"vStack\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 3676,
-      "length": 8,
-      "value": "\"zStack\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 3833,
-      "length": 17,
-      "value": "\"disclosureGroup\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 3939,
-      "length": 6,
-      "value": "\"menu\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 4036,
-      "length": 8,
-      "value": "\"custom\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 4121,
-      "length": 10,
-      "value": "\"included\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 4210,
-      "length": 14,
-      "value": "\"gradientView\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 4472,
-      "length": 10,
-      "value": "\"visibility\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4516,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 4620,
-      "length": 8,
-      "value": "\"ruleName\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 4669,
-      "length": 9,
-      "value": "\"ruleValue\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 5299,
-      "length": 10,
-      "value": "\"schedule\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 5365,
-      "length": 6,
-      "value": "\"starts\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 5423,
-      "length": 8,
-      "value": "\"duration\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 5544,
-      "length": 21,
-      "value": "\"MM\/dd\/yyyy HH:mm:ss\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 5624,
-      "length": 13,
-      "value": "\"en_US_POSIX\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6052,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 6221,
-      "length": 7,
-      "value": "\"daily\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 6285,
-      "length": 6,
-      "value": "\"starts\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 6345,
-      "length": 3,
-      "value": "\"end\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "StringLiteral",
-      "offset": 6445,
-      "length": 7,
-      "value": "\"HH:mm\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7202,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7207,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7252,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7343,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7348,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7386,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7477,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7482,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7525,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7871,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/RemoteImage.swift",
@@ -6268,13 +4736,6 @@
       "offset": 389,
       "length": 17,
       "value": "\"multiply.circle\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/RemoteImage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 940,
-      "length": 3,
-      "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/ContentViewStyle.swift",
@@ -6706,34 +5167,6 @@
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/ListContentView.swift",
       "kind": "StringLiteral",
-      "offset": 286,
-      "length": 8,
-      "value": "\"sections\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/ListContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 353,
-      "length": 5,
-      "value": "\"views\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/ListContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 1213,
-      "length": 5,
-      "value": "\"views\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/ListContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 1363,
-      "length": 5,
-      "value": "\"title\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/ListContentView.swift",
-      "kind": "StringLiteral",
       "offset": 1723,
       "length": 9,
       "value": "\"listStyle\""
@@ -6769,198 +5202,9 @@
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/macOS\/Views\/TabBarContentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 852,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/macOS\/Views\/TabBarContentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1018,
-      "length": 2,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/macOS\/Views\/TabBarContentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1839,
-      "length": 2,
-      "value": "99"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/macOS\/Views\/TabBarContentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1974,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/macOS\/Views\/TabBarContentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2049,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/macOS\/Views\/TabBarContentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2111,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/macOS\/Views\/TabBarContentView.swift",
-      "kind": "IntegerLiteral",
       "offset": 2242,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/macOS\/Views\/TabBarContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 2353,
-      "length": 4,
-      "value": "\"tabs\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/macOS\/Views\/TabBarContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 2521,
-      "length": 8,
-      "value": "\"tabStyle\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/macOS\/Views\/TabBarContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 2559,
-      "length": 11,
-      "value": "\"pageStyle\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/macOS\/Views\/TabBarContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 2824,
-      "length": 10,
-      "value": "\"tabContent\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/macOS\/Views\/TabBarContentView.swift",
-      "kind": "Array",
-      "offset": 3449,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/macOS\/Views\/TabBarContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 3898,
-      "length": 10,
-      "value": "\"tabContent\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/macOS\/Views\/TabBarContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 3945,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/macOS\/Views\/TabBarContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 4210,
-      "length": 4,
-      "value": "\"icon\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/macOS\/Views\/TabBarContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 4335,
-      "length": 5,
-      "value": "\"title\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/StackContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 398,
-      "length": 5,
-      "value": "\"views\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/StackContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 579,
-      "length": 9,
-      "value": "\"alignment\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/StackContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 873,
-      "length": 10,
-      "value": "\"scrollable\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/StackContentView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1228,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/StackContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 1471,
-      "length": 10,
-      "value": "\"scrollable\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/StackContentView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1824,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/NavigationContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 298,
-      "length": 5,
-      "value": "\"views\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/NavigationContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 530,
-      "length": 15,
-      "value": "\"ignoreSafeAreas\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/NavigationContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 620,
-      "length": 12,
-      "value": "\"toolbarViews\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/NavigationContentView.swift",
-      "kind": "Array",
-      "offset": 974,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/MenuContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 282,
-      "length": 5,
-      "value": "\"views\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/MenuContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 339,
-      "length": 5,
-      "value": "\"title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
@@ -6975,90 +5219,6 @@
       "offset": 451,
       "length": 3,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
-      "kind": "Array",
-      "offset": 2166,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 3177,
-      "length": 37,
-      "value": "\"Bytes loaded: \""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 3212,
-      "length": 1,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 3557,
-      "length": 32,
-      "value": "\"Download finished: \""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 3588,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3700,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 3886,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 3897,
-      "length": 3,
-      "value": "\"_\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 4306,
-      "length": 74,
-      "value": "\"File has been successfully created and saved: \""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 4379,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 4527,
-      "length": 50,
-      "value": "\"File creation failed: \""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 4576,
-      "length": 1,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
@@ -7089,480 +5249,11 @@
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6825,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 7094,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 7105,
-      "length": 3,
-      "value": "\"_\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7406,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 7611,
-      "length": 22,
-      "value": "\"Checking for file at\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 7794,
-      "length": 33,
-      "value": "\"File was already saved locally.\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 8129,
-      "length": 31,
-      "value": "\"File will be loaded from web.\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 8294,
-      "length": 45,
-      "value": "\"The documents folder could not be accessed.\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/NavigationLinkContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 354,
-      "length": 11,
-      "value": "\"triggerView\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/NavigationLinkContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 574,
-      "length": 9,
-      "value": "\"routeType\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/NavigationLinkContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 625,
-      "length": 8,
-      "value": "\"custom\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/NavigationLinkContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 1285,
-      "length": 5,
-      "value": "\"route\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/NavigationLinkContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 1346,
-      "length": 9,
-      "value": "\"routeType\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/NavigationLinkContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 1407,
-      "length": 8,
-      "value": "\"custom\""
-    },
-    {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/DisclosureGroupContentView.swift",
       "kind": "BooleanLiteral",
       "offset": 234,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/DisclosureGroupContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 342,
-      "length": 5,
-      "value": "\"label\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/DisclosureGroupContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 413,
-      "length": 7,
-      "value": "\"content\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/DisclosureGroupContentView.swift",
-      "kind": "StringLiteral",
-      "offset": 1124,
-      "length": 10,
-      "value": "\"isExpanded\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 296,
-      "length": 14,
-      "value": "\"customViewName\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 656,
-      "length": 9,
-      "value": "\"minLength\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "FloatLiteral",
-      "offset": 737,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 887,
-      "length": 11,
-      "value": "\"dynamicText\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 952,
-      "length": 4,
-      "value": "\"text\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 1011,
-      "length": 11,
-      "value": "\"previewText\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 1342,
-      "length": 10,
-      "value": "\"isMarkdown\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 1582,
-      "length": 12,
-      "value": "\"textEmphasis\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 1729,
-      "length": 6,
-      "value": "\"bold\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 1781,
-      "length": 8,
-      "value": "\"italic\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 1837,
-      "length": 11,
-      "value": "\"underline\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 2120,
-      "length": 4,
-      "value": "\"text\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 2177,
-      "length": 3,
-      "value": "\"url\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 2501,
-      "length": 6,
-      "value": "\"source\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 2662,
-      "length": 10,
-      "value": "\"sourceType\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 2738,
-      "length": 17,
-      "value": "\"multiply.circle\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 2810,
-      "length": 8,
-      "value": "\"system\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 3079,
-      "length": 8,
-      "value": "\"remote\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 3152,
-      "length": 11,
-      "value": "\"scalingMode\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 3243,
-      "length": 13,
-      "value": "\"scaledToFit\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 3429,
-      "length": 14,
-      "value": "\"scaledToFill\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 3733,
-      "length": 9,
-      "value": "\"dynamic\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 3813,
-      "length": 18,
-      "value": "\"previewImageSource\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 4334,
-      "length": 7,
-      "value": "\"photo\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 4653,
-      "length": 17,
-      "value": "\"multiply.circle\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 5930,
-      "length": 6,
-      "value": "\"source\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 6091,
-      "length": 10,
-      "value": "\"sourceType\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 6196,
-      "length": 7,
-      "value": "\"local\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 6329,
-      "length": 8,
-      "value": "\"remote\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 6657,
-      "length": 8,
-      "value": "\"autoplay\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 7025,
-      "length": 8,
-      "value": "\"autoLoop\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 7089,
-      "length": 11,
-      "value": "\"scalingMode\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 7416,
-      "length": 13,
-      "value": "\"scaledToFit\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 7754,
-      "length": 13,
-      "value": "\"scaledToFit\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 8090,
-      "length": 6,
-      "value": "\"source\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 8249,
-      "length": 10,
-      "value": "\"sourceType\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 8352,
-      "length": 10,
-      "value": "\"embedded\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 9104,
-      "length": 6,
-      "value": "\"source\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 9547,
-      "length": 12,
-      "value": "\"gradientType\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 9607,
-      "length": 6,
-      "value": "\"colors\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 9814,
-      "length": 34,
-      "value": "\"There are no colors for gradient\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 9944,
-      "length": 8,
-      "value": "\"linear\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 10005,
-      "length": 10,
-      "value": "\"startPoint\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 10065,
-      "length": 8,
-      "value": "\"endPoint\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 10436,
-      "length": 87,
-      "value": "\"couldn't cast Start Point: \""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 10480,
-      "length": 2,
-      "value": "\" or End point: \""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 10509,
-      "length": 2,
-      "value": "\" to UnitPoint\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView+Views.swift",
-      "kind": "StringLiteral",
-      "offset": 10625,
-      "length": 22,
-      "value": "\"Returning empty view\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 442,
-      "length": 7,
-      "value": "\"title\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 546,
-      "length": 6,
-      "value": "\"type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
@@ -7601,167 +5292,6 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1084,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "Dictionary",
-      "offset": 1200,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 1344,
-      "length": 13,
-      "value": "\"Invalid URL\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 1489,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 1650,
-      "length": 11,
-      "value": "\"x-api-key\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 2185,
-      "length": 27,
-      "value": "\"data loaded: \""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 2211,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2301,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "Dictionary",
-      "offset": 2604,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2713,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 3061,
-      "length": 6,
-      "value": "\"type\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 3078,
-      "length": 8,
-      "value": "\"source\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 3432,
-      "length": 6,
-      "value": "\"ios:\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 3666,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 3850,
-      "length": 6,
-      "value": "\"ios:\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "Array",
-      "offset": 4107,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 4341,
-      "length": 6,
-      "value": "\"ios:\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "Array",
-      "offset": 4593,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 4765,
-      "length": 6,
-      "value": "\"ios:\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 5261,
-      "length": 6,
-      "value": "\"ios:\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 5711,
-      "length": 6,
-      "value": "\"ios:\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 6121,
-      "length": 6,
-      "value": "\"ios:\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6349,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
       "offset": 6882,
       "length": 2,
@@ -7770,154 +5300,7 @@
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 7011,
-      "length": 13,
-      "value": "\"Invalid URL\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7045,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 7142,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 7288,
-      "length": 11,
-      "value": "\"x-api-key\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 7545,
-      "length": 13,
-      "value": "\"url: \""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 7557,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 7574,
-      "length": 21,
-      "value": "\"content: \""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 7594,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 7611,
-      "length": 37,
-      "value": "\"content data: \""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 7647,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 7664,
-      "length": 21,
-      "value": "\"request: \""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 7684,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 7843,
-      "length": 36,
-      "value": "\"Upload failed with error: \""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 7878,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7900,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7940,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
       "offset": 8096,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 8226,
-      "length": 13,
-      "value": "\"Invalid URL\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 8355,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 8500,
-      "length": 11,
-      "value": "\"x-api-key\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 8903,
-      "length": 43,
-      "value": "\"Fetch Content failed with error: \""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 8945,
       "length": 2,
       "value": "\"\""
     },
@@ -7931,226 +5314,9 @@
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 9245,
-      "length": 13,
-      "value": "\"Invalid URL\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "Array",
-      "offset": 9279,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 9373,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 9518,
-      "length": 11,
-      "value": "\"x-api-key\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 9567,
-      "length": 15,
-      "value": "\"folder-prefix\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "Array",
-      "offset": 9841,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 10109,
-      "length": 12,
-      "value": "\"StartAfter\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 10137,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 10197,
-      "length": 10,
-      "value": "\"Contents\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 10364,
-      "length": 6,
-      "value": "\"Size\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10397,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 10515,
-      "length": 5,
-      "value": "\"Key\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 10536,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 10852,
-      "length": 7,
-      "value": "\".json\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10921,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 11035,
-      "length": 14,
-      "value": "\"LastModified\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 11065,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11195,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 11249,
-      "length": 28,
-      "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSSZ\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 11536,
-      "length": 16,
-      "value": "\"CommonPrefixes\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 11710,
-      "length": 8,
-      "value": "\"Prefix\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 11734,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12171,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
       "offset": 12585,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 12714,
-      "length": 13,
-      "value": "\"Invalid URL\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12748,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 12845,
-      "length": 8,
-      "value": "\"DELETE\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 12993,
-      "length": 11,
-      "value": "\"x-api-key\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 13368,
-      "length": 44,
-      "value": "\"Delete Content failed with error: \""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "StringLiteral",
-      "offset": 13411,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13433,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13473,
-      "length": 4,
-      "value": "true"
     }
   ]
 }
