@@ -4387,9 +4387,16 @@
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/iOS\/Views\/VideoPlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 567,
+      "offset": 743,
       "length": 19,
       "value": "\"AppstentUI.LoopingPlayerUIView\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/iOS\/Views\/VideoPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 2428,
+      "length": 12,
+      "value": "\"AppstentUI.PlayerUIView\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/RemoteImage.swift",
