@@ -358,7 +358,27 @@ public protocol GlobalActionHandlerProvider {
   public static var deploymentStage: Swift.String
   public static var apiKey: Swift.String
   public init(from dict: Swift.AnyObject)
+  @Combine.Published @_projectedValueProperty($isLoadingFromRemote) public var isLoadingFromRemote: Swift.Bool {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  public var $isLoadingFromRemote: Combine.Published<Swift.Bool>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  public enum CacheStatus {
+    case none
+    case cached
+    case updating
+    case upToDate
+    case error(any Swift.Error)
+  }
   @_Concurrency.MainActor public init(from contentId: Swift.String)
+  public static func clearCache()
   public init(from data: Foundation.Data)
   public subscript(dynamicMember member: Swift.String) -> Swift.String {
     get
@@ -396,6 +416,13 @@ public protocol GlobalActionHandlerProvider {
   public var hashValue: Swift.Int {
     get
   }
+}
+@_hasMissingDesignatedInitializers public class ViewContentCache {
+  public static let shared: AppstentUI.ViewContentCache
+  public func store(_ data: Foundation.Data, for key: Swift.String)
+  public func retrieve(_ key: Swift.String) -> Foundation.Data?
+  public func clear()
+  @objc deinit
 }
 public protocol CustomContentViewProvider {
   func customView(from viewName: Swift.String) -> SwiftUICore.AnyView

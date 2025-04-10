@@ -3195,6 +3195,440 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Var",
+            "name": "isLoadingFromRemote",
+            "printedName": "isLoadingFromRemote",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AppstentUIMac11ViewContentC19isLoadingFromRemoteSbvp",
+            "mangledName": "$s13AppstentUIMac11ViewContentC19isLoadingFromRemoteSbvp",
+            "moduleName": "AppstentUIMac",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppstentUIMac11ViewContentC19isLoadingFromRemoteSbvg",
+                "mangledName": "$s13AppstentUIMac11ViewContentC19isLoadingFromRemoteSbvg",
+                "moduleName": "AppstentUIMac",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppstentUIMac11ViewContentC19isLoadingFromRemoteSbvs",
+                "mangledName": "$s13AppstentUIMac11ViewContentC19isLoadingFromRemoteSbvs",
+                "moduleName": "AppstentUIMac",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppstentUIMac11ViewContentC19isLoadingFromRemoteSbvM",
+                "mangledName": "$s13AppstentUIMac11ViewContentC19isLoadingFromRemoteSbvM",
+                "moduleName": "AppstentUIMac",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$isLoadingFromRemote",
+            "printedName": "$isLoadingFromRemote",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AppstentUIMac11ViewContentC20$isLoadingFromRemote7Combine9PublishedV9PublisherVySb_Gvp",
+            "mangledName": "$s13AppstentUIMac11ViewContentC20$isLoadingFromRemote7Combine9PublishedV9PublisherVySb_Gvp",
+            "moduleName": "AppstentUIMac",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppstentUIMac11ViewContentC20$isLoadingFromRemote7Combine9PublishedV9PublisherVySb_Gvg",
+                "mangledName": "$s13AppstentUIMac11ViewContentC20$isLoadingFromRemote7Combine9PublishedV9PublisherVySb_Gvg",
+                "moduleName": "AppstentUIMac",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppstentUIMac11ViewContentC20$isLoadingFromRemote7Combine9PublishedV9PublisherVySb_Gvs",
+                "mangledName": "$s13AppstentUIMac11ViewContentC20$isLoadingFromRemote7Combine9PublishedV9PublisherVySb_Gvs",
+                "moduleName": "AppstentUIMac",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppstentUIMac11ViewContentC20$isLoadingFromRemote7Combine9PublishedV9PublisherVySb_GvM",
+                "mangledName": "$s13AppstentUIMac11ViewContentC20$isLoadingFromRemote7Combine9PublishedV9PublisherVySb_GvM",
+                "moduleName": "AppstentUIMac",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "CacheStatus",
+            "printedName": "CacheStatus",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "none",
+                "printedName": "none",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AppstentUIMac.ViewContent.CacheStatus.Type) -> AppstentUIMac.ViewContent.CacheStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CacheStatus",
+                        "printedName": "AppstentUIMac.ViewContent.CacheStatus",
+                        "usr": "s:13AppstentUIMac11ViewContentC11CacheStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AppstentUIMac.ViewContent.CacheStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CacheStatus",
+                            "printedName": "AppstentUIMac.ViewContent.CacheStatus",
+                            "usr": "s:13AppstentUIMac11ViewContentC11CacheStatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13AppstentUIMac11ViewContentC11CacheStatusO4noneyA2EmF",
+                "mangledName": "$s13AppstentUIMac11ViewContentC11CacheStatusO4noneyA2EmF",
+                "moduleName": "AppstentUIMac"
+              },
+              {
+                "kind": "Var",
+                "name": "cached",
+                "printedName": "cached",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AppstentUIMac.ViewContent.CacheStatus.Type) -> AppstentUIMac.ViewContent.CacheStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CacheStatus",
+                        "printedName": "AppstentUIMac.ViewContent.CacheStatus",
+                        "usr": "s:13AppstentUIMac11ViewContentC11CacheStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AppstentUIMac.ViewContent.CacheStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CacheStatus",
+                            "printedName": "AppstentUIMac.ViewContent.CacheStatus",
+                            "usr": "s:13AppstentUIMac11ViewContentC11CacheStatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13AppstentUIMac11ViewContentC11CacheStatusO6cachedyA2EmF",
+                "mangledName": "$s13AppstentUIMac11ViewContentC11CacheStatusO6cachedyA2EmF",
+                "moduleName": "AppstentUIMac"
+              },
+              {
+                "kind": "Var",
+                "name": "updating",
+                "printedName": "updating",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AppstentUIMac.ViewContent.CacheStatus.Type) -> AppstentUIMac.ViewContent.CacheStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CacheStatus",
+                        "printedName": "AppstentUIMac.ViewContent.CacheStatus",
+                        "usr": "s:13AppstentUIMac11ViewContentC11CacheStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AppstentUIMac.ViewContent.CacheStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CacheStatus",
+                            "printedName": "AppstentUIMac.ViewContent.CacheStatus",
+                            "usr": "s:13AppstentUIMac11ViewContentC11CacheStatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13AppstentUIMac11ViewContentC11CacheStatusO8updatingyA2EmF",
+                "mangledName": "$s13AppstentUIMac11ViewContentC11CacheStatusO8updatingyA2EmF",
+                "moduleName": "AppstentUIMac"
+              },
+              {
+                "kind": "Var",
+                "name": "upToDate",
+                "printedName": "upToDate",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AppstentUIMac.ViewContent.CacheStatus.Type) -> AppstentUIMac.ViewContent.CacheStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CacheStatus",
+                        "printedName": "AppstentUIMac.ViewContent.CacheStatus",
+                        "usr": "s:13AppstentUIMac11ViewContentC11CacheStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AppstentUIMac.ViewContent.CacheStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CacheStatus",
+                            "printedName": "AppstentUIMac.ViewContent.CacheStatus",
+                            "usr": "s:13AppstentUIMac11ViewContentC11CacheStatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13AppstentUIMac11ViewContentC11CacheStatusO8upToDateyA2EmF",
+                "mangledName": "$s13AppstentUIMac11ViewContentC11CacheStatusO8upToDateyA2EmF",
+                "moduleName": "AppstentUIMac"
+              },
+              {
+                "kind": "Var",
+                "name": "error",
+                "printedName": "error",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AppstentUIMac.ViewContent.CacheStatus.Type) -> (any Swift.Error) -> AppstentUIMac.ViewContent.CacheStatus",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any Swift.Error) -> AppstentUIMac.ViewContent.CacheStatus",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CacheStatus",
+                            "printedName": "AppstentUIMac.ViewContent.CacheStatus",
+                            "usr": "s:13AppstentUIMac11ViewContentC11CacheStatusO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AppstentUIMac.ViewContent.CacheStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CacheStatus",
+                            "printedName": "AppstentUIMac.ViewContent.CacheStatus",
+                            "usr": "s:13AppstentUIMac11ViewContentC11CacheStatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13AppstentUIMac11ViewContentC11CacheStatusO5erroryAEs5Error_pcAEmF",
+                "mangledName": "$s13AppstentUIMac11ViewContentC11CacheStatusO5erroryAEs5Error_pcAEmF",
+                "moduleName": "AppstentUIMac"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:13AppstentUIMac11ViewContentC11CacheStatusO",
+            "mangledName": "$s13AppstentUIMac11ViewContentC11CacheStatusO",
+            "moduleName": "AppstentUIMac",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -3221,6 +3655,28 @@
               "Custom"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "clearCache",
+            "printedName": "clearCache()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AppstentUIMac11ViewContentC10clearCacheyyFZ",
+            "mangledName": "$s13AppstentUIMac11ViewContentC10clearCacheyyFZ",
+            "moduleName": "AppstentUIMac",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Constructor",
@@ -4038,6 +4494,185 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppstentUIMac",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ViewContentCache",
+        "printedName": "ViewContentCache",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ViewContentCache",
+                "printedName": "AppstentUIMac.ViewContentCache",
+                "usr": "s:13AppstentUIMac16ViewContentCacheC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AppstentUIMac16ViewContentCacheC6sharedACvpZ",
+            "mangledName": "$s13AppstentUIMac16ViewContentCacheC6sharedACvpZ",
+            "moduleName": "AppstentUIMac",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewContentCache",
+                    "printedName": "AppstentUIMac.ViewContentCache",
+                    "usr": "s:13AppstentUIMac16ViewContentCacheC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppstentUIMac16ViewContentCacheC6sharedACvgZ",
+                "mangledName": "$s13AppstentUIMac16ViewContentCacheC6sharedACvgZ",
+                "moduleName": "AppstentUIMac",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "store",
+            "printedName": "store(_:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AppstentUIMac16ViewContentCacheC5store_3fory10Foundation4DataV_SStF",
+            "mangledName": "$s13AppstentUIMac16ViewContentCacheC5store_3fory10Foundation4DataV_SStF",
+            "moduleName": "AppstentUIMac",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieve",
+            "printedName": "retrieve(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AppstentUIMac16ViewContentCacheC8retrievey10Foundation4DataVSgSSF",
+            "mangledName": "$s13AppstentUIMac16ViewContentCacheC8retrievey10Foundation4DataVSgSSF",
+            "moduleName": "AppstentUIMac",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clear",
+            "printedName": "clear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AppstentUIMac16ViewContentCacheC5clearyyF",
+            "mangledName": "$s13AppstentUIMac16ViewContentCacheC5clearyyF",
+            "moduleName": "AppstentUIMac",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13AppstentUIMac16ViewContentCacheC",
+        "mangledName": "$s13AppstentUIMac16ViewContentCacheC",
+        "moduleName": "AppstentUIMac",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -5540,31 +6175,59 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1154,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 6882,
+      "offset": 8752,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 8096,
+      "offset": 9966,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 9124,
+      "offset": 10994,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 12585,
+      "offset": 14455,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
+      "kind": "Dictionary",
+      "offset": 15546,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
+      "kind": "StringLiteral",
+      "offset": 15595,
+      "length": 31,
+      "value": "\"com.appstent.viewcontentcache\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15767,
+      "length": 3,
+      "value": "300"
     }
   ]
 }
