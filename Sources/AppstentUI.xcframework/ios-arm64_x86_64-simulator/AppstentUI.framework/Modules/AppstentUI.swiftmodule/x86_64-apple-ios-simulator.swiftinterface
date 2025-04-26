@@ -8,6 +8,7 @@ import AVKit
 import Combine
 import CoreData
 import Foundation
+import Observation
 import Swift
 import SwiftUI
 import WebKit
@@ -340,35 +341,24 @@ public protocol ActionHandlerProvider {
 public protocol GlobalActionHandlerProvider {
   func tapHandler(for handlerName: Swift.String, with gestureData: [Swift.String : Swift.AnyObject]?) -> () -> Swift.Void
 }
-@dynamicCallable @dynamicMemberLookup public class ViewContent : Swift.Hashable, Foundation.ObservableObject {
+@dynamicCallable @dynamicMemberLookup public class ViewContent : Swift.Hashable {
   public static func == (lhs: AppstentUI.ViewContent, rhs: AppstentUI.ViewContent) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
-  @Combine.Published @_projectedValueProperty($isLoaded) public var isLoaded: Swift.Bool {
+  public var isLoaded: Swift.Bool {
     get
-    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
-    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
-  }
-  public var $isLoaded: Combine.Published<Swift.Bool>.Publisher {
-    get
-    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-    set
   }
   public static var deploymentStage: Swift.String
   public static var apiKey: Swift.String
   public init(from dict: Swift.AnyObject)
-  @Combine.Published @_projectedValueProperty($isLoadingFromRemote) public var isLoadingFromRemote: Swift.Bool {
+  public var isLoadingFromRemote: Swift.Bool {
     get
-    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
-    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
-  public var $isLoadingFromRemote: Combine.Published<Swift.Bool>.Publisher {
+  public var cacheStatus: AppstentUI.ViewContent.CacheStatus {
     get
-    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-    set
   }
   public enum CacheStatus {
     case none
@@ -410,8 +400,6 @@ public protocol GlobalActionHandlerProvider {
   public static func getAllViewContents(under subPath: Swift.String = "") async -> [AppstentUI.AppstentDoc]
   @available(macOS 12, iOS 15, *)
   public static func deleteContent(with name: Swift.String, under subPath: Swift.String = "") async -> Swift.Bool
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
   public var hashValue: Swift.Int {
     get
@@ -423,6 +411,8 @@ public protocol GlobalActionHandlerProvider {
   public func retrieve(_ key: Swift.String) -> Foundation.Data?
   public func clear()
   @objc deinit
+}
+extension AppstentUI.ViewContent : Observation.Observable {
 }
 public protocol CustomContentViewProvider {
   func customView(from viewName: Swift.String) -> SwiftUICore.AnyView

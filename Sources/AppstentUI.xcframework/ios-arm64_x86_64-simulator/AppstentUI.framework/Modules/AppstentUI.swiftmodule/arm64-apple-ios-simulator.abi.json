@@ -1791,6 +1791,13 @@
       },
       {
         "kind": "Import",
+        "name": "Observation",
+        "printedName": "Observation",
+        "declKind": "Import",
+        "moduleName": "AppstentUI"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -1906,6 +1913,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Observation",
+        "printedName": "Observation",
+        "declKind": "Import",
+        "moduleName": "AppstentUI"
       },
       {
         "kind": "TypeDecl",
@@ -2460,6 +2474,13 @@
         "moduleName": "AppstentUI"
       },
       {
+        "kind": "Import",
+        "name": "Observation",
+        "printedName": "Observation",
+        "declKind": "Import",
+        "moduleName": "AppstentUI"
+      },
+      {
         "kind": "TypeDecl",
         "name": "ViewContent",
         "printedName": "ViewContent",
@@ -2543,9 +2564,9 @@
             "mangledName": "$s10AppstentUI11ViewContentC8isLoadedSbvp",
             "moduleName": "AppstentUI",
             "declAttributes": [
-              "ProjectedValueProperty",
-              "AccessControl",
-              "Custom"
+              "HasInitialValue",
+              "Custom",
+              "AccessControl"
             ],
             "accessors": [
               {
@@ -2564,7 +2585,6 @@
                 "usr": "s:10AppstentUI11ViewContentC8isLoadedSbvg",
                 "mangledName": "$s10AppstentUI11ViewContentC8isLoadedSbvg",
                 "moduleName": "AppstentUI",
-                "implicit": true,
                 "accessorKind": "get"
               },
               {
@@ -2588,17 +2608,6 @@
                 "usr": "s:10AppstentUI11ViewContentC8isLoadedSbvs",
                 "mangledName": "$s10AppstentUI11ViewContentC8isLoadedSbvs",
                 "moduleName": "AppstentUI",
-                "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13.0",
-                "intro_tvOS": "13.0",
-                "intro_watchOS": "6.0",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -2616,118 +2625,6 @@
                 "usr": "s:10AppstentUI11ViewContentC8isLoadedSbvM",
                 "mangledName": "$s10AppstentUI11ViewContentC8isLoadedSbvM",
                 "moduleName": "AppstentUI",
-                "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13.0",
-                "intro_tvOS": "13.0",
-                "intro_watchOS": "6.0",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "$isLoaded",
-            "printedName": "$isLoaded",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Publisher",
-                "printedName": "Combine.Published<Swift.Bool>.Publisher",
-                "usr": "s:7Combine9PublishedV9PublisherV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10AppstentUI11ViewContentC9$isLoaded7Combine9PublishedV9PublisherVySb_Gvp",
-            "mangledName": "$s10AppstentUI11ViewContentC9$isLoaded7Combine9PublishedV9PublisherVySb_Gvp",
-            "moduleName": "AppstentUI",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Publisher",
-                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
-                    "usr": "s:7Combine9PublishedV9PublisherV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10AppstentUI11ViewContentC9$isLoaded7Combine9PublishedV9PublisherVySb_Gvg",
-                "mangledName": "$s10AppstentUI11ViewContentC9$isLoaded7Combine9PublishedV9PublisherVySb_Gvg",
-                "moduleName": "AppstentUI",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Publisher",
-                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
-                    "usr": "s:7Combine9PublishedV9PublisherV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10AppstentUI11ViewContentC9$isLoaded7Combine9PublishedV9PublisherVySb_Gvs",
-                "mangledName": "$s10AppstentUI11ViewContentC9$isLoaded7Combine9PublishedV9PublisherVySb_Gvs",
-                "moduleName": "AppstentUI",
-                "implicit": true,
-                "intro_Macosx": "11.0",
-                "intro_iOS": "14.0",
-                "intro_tvOS": "14.0",
-                "intro_watchOS": "7.0",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10AppstentUI11ViewContentC9$isLoaded7Combine9PublishedV9PublisherVySb_GvM",
-                "mangledName": "$s10AppstentUI11ViewContentC9$isLoaded7Combine9PublishedV9PublisherVySb_GvM",
-                "moduleName": "AppstentUI",
-                "implicit": true,
-                "intro_Macosx": "11.0",
-                "intro_iOS": "14.0",
-                "intro_tvOS": "14.0",
-                "intro_watchOS": "7.0",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -2975,9 +2872,9 @@
             "mangledName": "$s10AppstentUI11ViewContentC19isLoadingFromRemoteSbvp",
             "moduleName": "AppstentUI",
             "declAttributes": [
-              "ProjectedValueProperty",
-              "AccessControl",
-              "Custom"
+              "HasInitialValue",
+              "Custom",
+              "AccessControl"
             ],
             "accessors": [
               {
@@ -2996,7 +2893,6 @@
                 "usr": "s:10AppstentUI11ViewContentC19isLoadingFromRemoteSbvg",
                 "mangledName": "$s10AppstentUI11ViewContentC19isLoadingFromRemoteSbvg",
                 "moduleName": "AppstentUI",
-                "implicit": true,
                 "accessorKind": "get"
               },
               {
@@ -3020,17 +2916,6 @@
                 "usr": "s:10AppstentUI11ViewContentC19isLoadingFromRemoteSbvs",
                 "mangledName": "$s10AppstentUI11ViewContentC19isLoadingFromRemoteSbvs",
                 "moduleName": "AppstentUI",
-                "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13.0",
-                "intro_tvOS": "13.0",
-                "intro_watchOS": "6.0",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -3048,38 +2933,32 @@
                 "usr": "s:10AppstentUI11ViewContentC19isLoadingFromRemoteSbvM",
                 "mangledName": "$s10AppstentUI11ViewContentC19isLoadingFromRemoteSbvM",
                 "moduleName": "AppstentUI",
-                "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13.0",
-                "intro_tvOS": "13.0",
-                "intro_watchOS": "6.0",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
           },
           {
             "kind": "Var",
-            "name": "$isLoadingFromRemote",
-            "printedName": "$isLoadingFromRemote",
+            "name": "cacheStatus",
+            "printedName": "cacheStatus",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Publisher",
-                "printedName": "Combine.Published<Swift.Bool>.Publisher",
-                "usr": "s:7Combine9PublishedV9PublisherV"
+                "name": "CacheStatus",
+                "printedName": "AppstentUI.ViewContent.CacheStatus",
+                "usr": "s:10AppstentUI11ViewContentC11CacheStatusO"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10AppstentUI11ViewContentC20$isLoadingFromRemote7Combine9PublishedV9PublisherVySb_Gvp",
-            "mangledName": "$s10AppstentUI11ViewContentC20$isLoadingFromRemote7Combine9PublishedV9PublisherVySb_Gvp",
+            "usr": "s:10AppstentUI11ViewContentC11cacheStatusAC05CacheF0Ovp",
+            "mangledName": "$s10AppstentUI11ViewContentC11cacheStatusAC05CacheF0Ovp",
             "moduleName": "AppstentUI",
-            "implicit": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "SetterAccess",
+              "AccessControl"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -3088,79 +2967,16 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Publisher",
-                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
-                    "usr": "s:7Combine9PublishedV9PublisherV"
+                    "name": "CacheStatus",
+                    "printedName": "AppstentUI.ViewContent.CacheStatus",
+                    "usr": "s:10AppstentUI11ViewContentC11CacheStatusO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10AppstentUI11ViewContentC20$isLoadingFromRemote7Combine9PublishedV9PublisherVySb_Gvg",
-                "mangledName": "$s10AppstentUI11ViewContentC20$isLoadingFromRemote7Combine9PublishedV9PublisherVySb_Gvg",
+                "usr": "s:10AppstentUI11ViewContentC11cacheStatusAC05CacheF0Ovg",
+                "mangledName": "$s10AppstentUI11ViewContentC11cacheStatusAC05CacheF0Ovg",
                 "moduleName": "AppstentUI",
-                "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Publisher",
-                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
-                    "usr": "s:7Combine9PublishedV9PublisherV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10AppstentUI11ViewContentC20$isLoadingFromRemote7Combine9PublishedV9PublisherVySb_Gvs",
-                "mangledName": "$s10AppstentUI11ViewContentC20$isLoadingFromRemote7Combine9PublishedV9PublisherVySb_Gvs",
-                "moduleName": "AppstentUI",
-                "implicit": true,
-                "intro_Macosx": "11.0",
-                "intro_iOS": "14.0",
-                "intro_tvOS": "14.0",
-                "intro_watchOS": "7.0",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10AppstentUI11ViewContentC20$isLoadingFromRemote7Combine9PublishedV9PublisherVySb_GvM",
-                "mangledName": "$s10AppstentUI11ViewContentC20$isLoadingFromRemote7Combine9PublishedV9PublisherVySb_GvM",
-                "moduleName": "AppstentUI",
-                "implicit": true,
-                "intro_Macosx": "11.0",
-                "intro_iOS": "14.0",
-                "intro_tvOS": "14.0",
-                "intro_watchOS": "7.0",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -4205,6 +4021,7 @@
         "moduleName": "AppstentUI",
         "declAttributes": [
           "AccessControl",
+          "Custom",
           "DynamicMemberLookup",
           "DynamicCallable"
         ],
@@ -4232,32 +4049,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "ObservableObject",
-            "printedName": "ObservableObject",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ObjectWillChangePublisher",
-                "printedName": "ObjectWillChangePublisher",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObservableObjectPublisher",
-                    "printedName": "Combine.ObservableObjectPublisher",
-                    "usr": "s:7Combine25ObservableObjectPublisherC"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7Combine16ObservableObjectP",
-            "mangledName": "$s7Combine16ObservableObjectP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Observable",
+            "printedName": "Observable",
+            "usr": "s:11Observation10ObservableP",
+            "mangledName": "$s11Observation10ObservableP"
           }
         ]
       },
@@ -5257,14 +5059,14 @@
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/RemoteImage.swift",
       "kind": "StringLiteral",
-      "offset": 344,
+      "offset": 324,
       "length": 7,
       "value": "\"photo\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/RemoteImage.swift",
       "kind": "StringLiteral",
-      "offset": 389,
+      "offset": 369,
       "length": 17,
       "value": "\"multiply.circle\""
     },
@@ -5740,14 +5542,14 @@
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/View Models\/SwiftUIWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 215,
+      "offset": 212,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/View Models\/SwiftUIWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 257,
+      "offset": 238,
       "length": 2,
       "value": "\"\""
     },
@@ -5782,42 +5584,42 @@
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
       "kind": "Dictionary",
-      "offset": 392,
+      "offset": 411,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
       "kind": "Dictionary",
-      "offset": 451,
+      "offset": 470,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
       "kind": "Array",
-      "offset": 6158,
+      "offset": 5919,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
       "kind": "Array",
-      "offset": 6219,
+      "offset": 5980,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
       "kind": "Array",
-      "offset": 6281,
+      "offset": 6042,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Utils\/CachedLoader.swift",
       "kind": "FloatLiteral",
-      "offset": 6577,
+      "offset": 6317,
       "length": 3,
       "value": "0.0"
     },
@@ -5831,91 +5633,91 @@
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "BooleanLiteral",
-      "offset": 669,
+      "offset": 671,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 796,
+      "offset": 798,
       "length": 6,
       "value": "\"demo\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 834,
+      "offset": 836,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 876,
+      "offset": 878,
       "length": 57,
       "value": "\"https:\/\/9ikqzu1k56.execute-api.us-east-2.amazonaws.com\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 954,
+      "offset": 956,
       "length": 11,
       "value": "\"\/content\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "BooleanLiteral",
-      "offset": 1154,
+      "offset": 1145,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 8752,
+      "offset": 8642,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 9966,
+      "offset": 9856,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 10994,
+      "offset": 10884,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 14455,
+      "offset": 14345,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "Dictionary",
-      "offset": 15546,
+      "offset": 15436,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 15595,
+      "offset": 15485,
       "length": 31,
       "value": "\"com.appstent.viewcontentcache\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "IntegerLiteral",
-      "offset": 15767,
+      "offset": 15657,
       "length": 3,
       "value": "300"
     }
