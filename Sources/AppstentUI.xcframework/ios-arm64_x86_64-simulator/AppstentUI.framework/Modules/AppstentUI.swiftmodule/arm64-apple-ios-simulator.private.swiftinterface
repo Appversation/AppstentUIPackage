@@ -283,6 +283,19 @@ extension SwiftUICore.View {
         }
     }
   
+  @inlinable @_Concurrency.MainActor @preconcurrency public func transition(from viewContent: AppstentUI.ViewContent) -> some SwiftUICore.View {
+        let transition:String = viewContent.transition
+        
+        switch transition {
+        case "fadeIn":
+            return AnyView(self.transition(.opacity))
+        case "slide":
+            return AnyView(self.transition(.slide))
+        default:
+            return AnyView(self)
+        }
+    }
+  
 }
 extension SwiftUICore.View {
   @inlinable @_Concurrency.MainActor @preconcurrency public func listStyle(from viewContent: AppstentUI.ViewContent) -> some SwiftUICore.View {
