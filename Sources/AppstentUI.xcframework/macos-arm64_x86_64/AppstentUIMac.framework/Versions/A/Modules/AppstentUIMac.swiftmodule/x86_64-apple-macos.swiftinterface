@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target x86_64-apple-macos14.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AppstentUIMac
+// swift-module-flags: -target x86_64-apple-macos15.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AppstentUIMac
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import AVKit
@@ -397,9 +397,7 @@ public protocol GlobalActionHandlerProvider {
   public func dynamicallyCall(withKeywordArguments args: Swift.KeyValuePairs<Swift.String, Swift.AnyObject>)
   @available(macOS 12, iOS 15, *)
   public static func update(content: Swift.String, with name: Swift.String, to subPath: Swift.String = "") async -> Swift.Bool
-  @available(macOS 12, iOS 15, *)
   public static func getContent(with name: Swift.String, under subPath: Swift.String = "") async -> Foundation.Data?
-  @available(macOS 12, iOS 15, *)
   public static func getAllViewContents(under subPath: Swift.String = "") async -> [AppstentUIMac.AppstentDoc]
   @available(macOS 12, iOS 15, *)
   public static func deleteContent(with name: Swift.String, under subPath: Swift.String = "") async -> Swift.Bool

@@ -3880,13 +3880,9 @@
             "mangledName": "$s10AppstentUI11ViewContentC03getD04with5under10Foundation4DataVSgSS_SStYaFZ",
             "moduleName": "AppstentUI",
             "static": true,
-            "intro_Macosx": "12",
-            "intro_iOS": "15",
             "declAttributes": [
               "Final",
               "AccessControl",
-              "Available",
-              "Available",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -3923,13 +3919,9 @@
             "mangledName": "$s10AppstentUI11ViewContentC06getAllC8Contents5underSayAA0A3DocVGSS_tYaFZ",
             "moduleName": "AppstentUI",
             "static": true,
-            "intro_Macosx": "12",
-            "intro_iOS": "15",
             "declAttributes": [
               "Final",
               "AccessControl",
-              "Available",
-              "Available",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -5617,21 +5609,21 @@
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/TabBarContentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4682,
+      "offset": 7307,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/TabBarContentView.swift",
       "kind": "FloatLiteral",
-      "offset": 4696,
+      "offset": 7321,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/TabBarContentView.swift",
       "kind": "StringLiteral",
-      "offset": 4957,
+      "offset": 7522,
       "length": 11,
       "value": "\"pageStyle\""
     },
@@ -5736,42 +5728,42 @@
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 9856,
+      "offset": 9820,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 10884,
+      "offset": 10812,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 14345,
+      "offset": 14273,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "Dictionary",
-      "offset": 15436,
+      "offset": 15364,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "StringLiteral",
-      "offset": 15485,
+      "offset": 15413,
       "length": 31,
       "value": "\"com.appstent.viewcontentcache\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Data\/ViewContent.swift",
       "kind": "IntegerLiteral",
-      "offset": 15657,
+      "offset": 15585,
       "length": 3,
       "value": "300"
     }
