@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/AppstentUI.framework/AppstentUI</key>
 		<data>
-		k6cBOjCtYHnK0OCfzdifBcKBJv8=
+		3eEA0PSHtMhwOEITn2P/dFwgc08=
 		</data>
 		<key>ios-arm64/AppstentUI.framework/Headers/AppstentUI-Swift.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppstentUI.framework/AppstentUI</key>
 		<data>
-		xBM/IWWILCAFJShtIpVwRuNGM9k=
+		g3By3gHw5zfyzY+XtdZl2t66Fc0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppstentUI.framework/Headers/AppstentUI-Swift.h</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>macos-arm64_x86_64/AppstentUIMac.framework/Versions/A/AppstentUIMac</key>
 		<data>
-		xmOGEykIPzeUGDayQpzI4WThpu8=
+		grHa3sSzMnvKs5AkbFvRl5y4++I=
 		</data>
 		<key>macos-arm64_x86_64/AppstentUIMac.framework/Versions/A/Headers/AppstentUI.h</key>
 		<data>
@@ -151,11 +151,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k6cBOjCtYHnK0OCfzdifBcKBJv8=
+			3eEA0PSHtMhwOEITn2P/dFwgc08=
 			</data>
 			<key>hash2</key>
 			<data>
-			RzaC6zBlx1qErFfta+1+c/n6Vp799pITsGQqSVYiH1Q=
+			NWqp7VscVhD54ydBwE4ZfOmMZQRQqeV52/1xkym0kNU=
 			</data>
 		</dict>
 		<key>ios-arm64/AppstentUI.framework/Headers/AppstentUI-Swift.h</key>
@@ -250,11 +250,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xBM/IWWILCAFJShtIpVwRuNGM9k=
+			g3By3gHw5zfyzY+XtdZl2t66Fc0=
 			</data>
 			<key>hash2</key>
 			<data>
-			sACQjgtDb0D/HmGgEEyh5vu5zQLKeCGClGtqgFfXPYI=
+			jHvf8T0lD4NjPqKK+04djqxL8CUbnxvY39kpj5Azddg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AppstentUI.framework/Headers/AppstentUI-Swift.h</key>
@@ -413,11 +413,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xmOGEykIPzeUGDayQpzI4WThpu8=
+			grHa3sSzMnvKs5AkbFvRl5y4++I=
 			</data>
 			<key>hash2</key>
 			<data>
-			SROrpEeFS4rjh35KQah/TiBcHSCYtwU3dbUYLjCtO9E=
+			0tl5kAvHj+ySM0FLXydkWy1vVk6cRSQt0mgV9qRK1jE=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/AppstentUIMac.framework/Versions/A/Headers/AppstentUI.h</key>
