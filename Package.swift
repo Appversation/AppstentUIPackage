@@ -26,6 +26,9 @@ let package = Package(
             path: "./Sources/AppstentUI.xcframework",
             dependencies: [
               .product(name: "Lottie", package: "lottie-spm")
+            ],
+            linkerSettings: [
+                .linkedFramework("AppstentUI")
             ]
         ),
     ]
