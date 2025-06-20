@@ -8,6 +8,7 @@ import AVKit
 import Combine
 import CoreData
 import Foundation
+import Lottie
 import Observation
 import Swift
 import SwiftUI
