@@ -2460,7 +2460,10 @@
         "name": "Lottie",
         "printedName": "Lottie",
         "declKind": "Import",
-        "moduleName": "AppstentUIMac"
+        "moduleName": "AppstentUIMac",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",

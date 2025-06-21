@@ -2224,7 +2224,10 @@
         "name": "Lottie",
         "printedName": "Lottie",
         "declKind": "Import",
-        "moduleName": "AppstentUI"
+        "moduleName": "AppstentUI",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
