@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "AppstentUIPackage",
+    name: "AppstentUI",
     platforms: [
         .iOS(.v18), .macOS(.v15)
     ],
