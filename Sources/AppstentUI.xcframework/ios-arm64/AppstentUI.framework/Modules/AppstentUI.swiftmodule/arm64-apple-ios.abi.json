@@ -1531,6 +1531,75 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "registerViewType",
+            "printedName": "registerViewType(_:builder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppstentUI.ViewContent, (any AppstentUI.CustomContentDataProvider)?) -> SwiftUI.AnyView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyView",
+                    "printedName": "SwiftUI.AnyView",
+                    "usr": "s:7SwiftUI7AnyViewV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(AppstentUI.ViewContent, (any AppstentUI.CustomContentDataProvider)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewContent",
+                        "printedName": "AppstentUI.ViewContent",
+                        "usr": "s:10AppstentUI11ViewContentC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any AppstentUI.CustomContentDataProvider)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CustomContentDataProvider",
+                            "printedName": "any AppstentUI.CustomContentDataProvider",
+                            "usr": "s:10AppstentUI25CustomContentDataProviderP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10AppstentUI0A4ViewV08registerC4Type_7builderySS_05SwiftB003AnyC0VAA0C7ContentC_AA06CustomI12DataProvider_pSgtctFZ",
+            "mangledName": "$s10AppstentUI0A4ViewV08registerC4Type_7builderySS_05SwiftB003AnyC0VAA0C7ContentC_AA06CustomI12DataProvider_pSgtctFZ",
+            "moduleName": "AppstentUI",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -5080,6 +5149,146 @@
       "offset": 471,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
+      "kind": "StringLiteral",
+      "offset": 2121,
+      "length": 9,
+      "value": "\"divider\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
+      "kind": "StringLiteral",
+      "offset": 2172,
+      "length": 8,
+      "value": "\"spacer\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
+      "kind": "StringLiteral",
+      "offset": 2235,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
+      "kind": "StringLiteral",
+      "offset": 2331,
+      "length": 6,
+      "value": "\"link\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
+      "kind": "StringLiteral",
+      "offset": 2397,
+      "length": 7,
+      "value": "\"image\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
+      "kind": "StringLiteral",
+      "offset": 2495,
+      "length": 7,
+      "value": "\"video\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
+      "kind": "StringLiteral",
+      "offset": 2563,
+      "length": 9,
+      "value": "\"webView\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
+      "kind": "StringLiteral",
+      "offset": 2631,
+      "length": 12,
+      "value": "\"tabbedView\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
+      "kind": "StringLiteral",
+      "offset": 2714,
+      "length": 16,
+      "value": "\"navigationView\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
+      "kind": "StringLiteral",
+      "offset": 2805,
+      "length": 16,
+      "value": "\"navigationLink\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
+      "kind": "StringLiteral",
+      "offset": 2900,
+      "length": 6,
+      "value": "\"list\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
+      "kind": "StringLiteral",
+      "offset": 2975,
+      "length": 6,
+      "value": "\"grid\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
+      "kind": "StringLiteral",
+      "offset": 3050,
+      "length": 8,
+      "value": "\"hStack\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
+      "kind": "StringLiteral",
+      "offset": 3195,
+      "length": 8,
+      "value": "\"vStack\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
+      "kind": "StringLiteral",
+      "offset": 3340,
+      "length": 8,
+      "value": "\"zStack\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
+      "kind": "StringLiteral",
+      "offset": 3485,
+      "length": 17,
+      "value": "\"disclosureGroup\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
+      "kind": "StringLiteral",
+      "offset": 3582,
+      "length": 6,
+      "value": "\"menu\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
+      "kind": "StringLiteral",
+      "offset": 3657,
+      "length": 8,
+      "value": "\"custom\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
+      "kind": "StringLiteral",
+      "offset": 3727,
+      "length": 10,
+      "value": "\"included\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/AppstentView.swift",
+      "kind": "StringLiteral",
+      "offset": 3801,
+      "length": 14,
+      "value": "\"gradientView\""
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/Shared\/Views\/RemoteImage.swift",
