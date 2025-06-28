@@ -71,7 +71,7 @@ extension SwiftUICore.View {
         return AnyView(self)
     }
   
-  @inlinable @_Concurrency.MainActor @preconcurrency public func shadow(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
+  @inlinable @_Concurrency.MainActor @preconcurrency internal func shadow(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
         
         guard let shadow:ViewContent = viewContent.shadow else {
             return AnyView(self)
@@ -88,7 +88,7 @@ extension SwiftUICore.View {
         return AnyView(self)
     }
   
-  @inlinable @_Concurrency.MainActor @preconcurrency public func blur(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
+  @inlinable @_Concurrency.MainActor @preconcurrency internal func blur(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
         
         guard let blur:ViewContent = viewContent.blur else {
             return AnyView(self)
@@ -104,7 +104,7 @@ extension SwiftUICore.View {
         return AnyView(self)
     }
   
-  @inlinable @_Concurrency.MainActor @preconcurrency public func backgroundColor(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
+  @inlinable @_Concurrency.MainActor @preconcurrency internal func backgroundColor(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
         
         let colorString:String = viewContent.backgroundColor
         
@@ -118,7 +118,7 @@ extension SwiftUICore.View {
         return AnyView(self)
     }
   
-  @inlinable @_Concurrency.MainActor @preconcurrency public func foregroundColor(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
+  @inlinable @_Concurrency.MainActor @preconcurrency internal func foregroundColor(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
         
         let colorString:String = viewContent.foregroundColor
         
@@ -132,7 +132,7 @@ extension SwiftUICore.View {
         return AnyView(self)
     }
   
-  @inlinable @_Concurrency.MainActor @preconcurrency public func font(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
+  @inlinable @_Concurrency.MainActor @preconcurrency internal func font(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
         
         var font: Font?
         let fontString:String = viewContent.font
@@ -178,7 +178,7 @@ extension SwiftUICore.View {
         return AnyView(self)
     }
   
-  @inlinable @_Concurrency.MainActor @preconcurrency public func padding(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
+  @inlinable @_Concurrency.MainActor @preconcurrency internal func padding(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
         
         if let paddingValue:Float = viewContent.padding {
             
@@ -192,23 +192,23 @@ extension SwiftUICore.View {
         return AnyView(self)
     }
   
-  @inlinable @_Concurrency.MainActor @preconcurrency public func offset(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
+  @inlinable @_Concurrency.MainActor @preconcurrency internal func offset(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
         
         let offsetX:Float = viewContent.offsetX ?? 0
         let offsetY:Float = viewContent.offsetY ?? 0
         
-        return AnyView(self.offset(x: CGFloat(offsetX), y: CGFloat(offsetY)))
+        return self.offset(x: CGFloat(offsetX), y: CGFloat(offsetY))
     }
   
-  @inlinable @_Concurrency.MainActor @preconcurrency public func position(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
+  @inlinable @_Concurrency.MainActor @preconcurrency internal func position(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
         
         let positionX:Float = viewContent.positionX ?? 0
         let positionY:Float = viewContent.positionY ?? 0
         
-        return AnyView(self.offset(x: CGFloat(positionX), y: CGFloat(positionY)))
+        return self.offset(x: CGFloat(positionX), y: CGFloat(positionY))
     }
   
-  @inlinable @_Concurrency.MainActor @preconcurrency public func border(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
+  @inlinable @_Concurrency.MainActor @preconcurrency internal func border(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
         
         let borderWidth:Float = (viewContent.borderWidth) ?? 1
         let colorString:String = viewContent.borderColor
@@ -222,16 +222,15 @@ extension SwiftUICore.View {
         return AnyView(self)
     }
   
-  @inlinable @_Concurrency.MainActor @preconcurrency public func fixedSize(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
+  @inlinable @_Concurrency.MainActor @preconcurrency internal func fixedSize(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
         
         let fixedWidth:Bool = viewContent.fixedWidth
         let fixedHeight:Bool = viewContent.fixedHeight
         
-                
-        return AnyView(fixedSize(horizontal: fixedWidth, vertical: fixedHeight))
+        return self.fixedSize(horizontal: fixedWidth, vertical: fixedHeight)
     }
   
-  @inlinable @_Concurrency.MainActor @preconcurrency public func frame(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
+  @inlinable @_Concurrency.MainActor @preconcurrency internal func frame(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
         
         let width:Float? = viewContent.width
         let height:Float? = viewContent.height
@@ -247,7 +246,7 @@ extension SwiftUICore.View {
         let alignmentValue:String = viewContent.alignment
         let alignment:Alignment = ContentFormatUtil.alignment(from: alignmentValue) ?? .center
                 
-        return AnyView(self.frame(minWidth: minWidth != nil ? CGFloat(minWidth!) : nil,
+        return self.frame(minWidth: minWidth != nil ? CGFloat(minWidth!) : nil,
                                   idealWidth: idealWidth != nil ? CGFloat(idealWidth!) : nil,
                                   maxWidth: maxWidth != nil ? CGFloat(maxWidth!) : nil,
                                   minHeight: minHeight != nil ? CGFloat(minHeight!) : nil,
@@ -256,10 +255,10 @@ extension SwiftUICore.View {
                                   alignment: alignment)
                         .frame(width: width != nil ? CGFloat(width!) : nil,
                                height: height != nil ? CGFloat(height!) : nil,
-                               alignment: alignment))
+                               alignment: alignment)
     }
   
-  @inlinable @_Concurrency.MainActor @preconcurrency public func cornerRadius(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
+  @inlinable @_Concurrency.MainActor @preconcurrency internal func cornerRadius(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
         
         guard let radius:Float = viewContent.cornerRadius else {
             return AnyView(self)
@@ -268,7 +267,7 @@ extension SwiftUICore.View {
         return AnyView(self.cornerRadius(CGFloat(radius)))
     }
   
-  @inlinable @_Concurrency.MainActor @preconcurrency public func clip(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
+  @inlinable @_Concurrency.MainActor @preconcurrency internal func clip(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
         
         let shapeName:String = viewContent.clipShape
         
@@ -284,7 +283,7 @@ extension SwiftUICore.View {
         }
     }
   
-  @inlinable @_Concurrency.MainActor @preconcurrency public func transition(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
+  @inlinable @_Concurrency.MainActor @preconcurrency internal func transition(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
         let transition:String = viewContent.transition
         
         switch transition {
@@ -294,22 +293,6 @@ extension SwiftUICore.View {
             return AnyView(self.transition(.slide))
         default:
             return AnyView(self)
-        }
-    }
-  
-}
-extension SwiftUICore.View {
-  @inlinable @_Concurrency.MainActor @preconcurrency public func listStyle(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
-           
-        let fontString:String = viewContent.listStyle
-        
-        switch fontString {
-        case "plainListStyle":  return AnyView(self.listStyle(PlainListStyle()))
-        case "sidebarListStyle":  return AnyView(self.listStyle(SidebarListStyle()))
-        case "insetListStyle":  return AnyView(self.listStyle(InsetListStyle()))
-            
-        default:
-            return AnyView(self.listStyle(DefaultListStyle()))
         }
     }
   
@@ -397,11 +380,9 @@ public protocol GlobalActionHandlerProvider {
     get
   }
   public func dynamicallyCall(withKeywordArguments args: Swift.KeyValuePairs<Swift.String, Swift.AnyObject>)
-  @available(macOS 12, iOS 15, *)
   public static func update(content: Swift.String, with name: Swift.String, to subPath: Swift.String = "") async -> Swift.Bool
   public static func getContent(with name: Swift.String, under subPath: Swift.String = "") async -> Foundation.Data?
   public static func getAllViewContents(under subPath: Swift.String = "") async -> [AppstentUIMac.AppstentDoc]
-  @available(macOS 12, iOS 15, *)
   public static func deleteContent(with name: Swift.String, under subPath: Swift.String = "") async -> Swift.Bool
   @objc deinit
   public var hashValue: Swift.Int {
