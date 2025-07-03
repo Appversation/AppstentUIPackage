@@ -15,6 +15,7 @@ import _AVKit_SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import os
 public struct AppstentDoc : Swift.Identifiable, Swift.Hashable {
   public let id: Foundation.UUID
   public var name: Swift.String
