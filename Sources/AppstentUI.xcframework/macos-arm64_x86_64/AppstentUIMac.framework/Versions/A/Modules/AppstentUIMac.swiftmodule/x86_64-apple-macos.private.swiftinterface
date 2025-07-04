@@ -314,6 +314,7 @@ extension SwiftUICore.Color {
 }
 public protocol CustomContentDataProvider {
   func string(for fieldName: Swift.String) -> Swift.String
+  func visibility(for fieldName: Swift.String) -> Swift.Bool
 }
 public enum LoadState {
   case notStarted, loading, success, failure

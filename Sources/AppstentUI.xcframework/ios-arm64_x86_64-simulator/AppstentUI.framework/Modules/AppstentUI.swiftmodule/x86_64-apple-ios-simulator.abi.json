@@ -1857,6 +1857,34 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "visibility",
+            "printedName": "visibility(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10AppstentUI25CustomContentDataProviderP10visibility3forSbSS_tF",
+            "mangledName": "$s10AppstentUI25CustomContentDataProviderP10visibility3forSbSS_tF",
+            "moduleName": "AppstentUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : AppstentUI.CustomContentDataProvider>",
+            "sugared_genericSig": "<Self where Self : AppstentUI.CustomContentDataProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
