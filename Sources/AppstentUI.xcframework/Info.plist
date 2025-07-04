@@ -6,20 +6,18 @@
 	<array>
 		<dict>
 			<key>BinaryPath</key>
-			<string>AppstentUI.framework/AppstentUI</string>
+			<string>AppstentUIMac.framework/Versions/A/AppstentUIMac</string>
 			<key>LibraryIdentifier</key>
-			<string>ios-arm64_x86_64-simulator</string>
+			<string>macos-arm64_x86_64</string>
 			<key>LibraryPath</key>
-			<string>AppstentUI.framework</string>
+			<string>AppstentUIMac.framework</string>
 			<key>SupportedArchitectures</key>
 			<array>
 				<string>arm64</string>
 				<string>x86_64</string>
 			</array>
 			<key>SupportedPlatform</key>
-			<string>ios</string>
-			<key>SupportedPlatformVariant</key>
-			<string>simulator</string>
+			<string>macos</string>
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
@@ -37,18 +35,20 @@
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
-			<string>AppstentUIMac.framework/Versions/A/AppstentUIMac</string>
+			<string>AppstentUI.framework/AppstentUI</string>
 			<key>LibraryIdentifier</key>
-			<string>macos-arm64_x86_64</string>
+			<string>ios-arm64_x86_64-simulator</string>
 			<key>LibraryPath</key>
-			<string>AppstentUIMac.framework</string>
+			<string>AppstentUI.framework</string>
 			<key>SupportedArchitectures</key>
 			<array>
 				<string>arm64</string>
 				<string>x86_64</string>
 			</array>
 			<key>SupportedPlatform</key>
-			<string>macos</string>
+			<string>ios</string>
+			<key>SupportedPlatformVariant</key>
+			<string>simulator</string>
 		</dict>
 	</array>
 	<key>CFBundlePackageType</key>

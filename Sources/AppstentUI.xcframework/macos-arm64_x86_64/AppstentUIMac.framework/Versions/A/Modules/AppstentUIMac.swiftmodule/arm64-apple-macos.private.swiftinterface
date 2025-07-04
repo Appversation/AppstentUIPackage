@@ -47,7 +47,7 @@ public struct AppstentDoc : Swift.Identifiable, Swift.Hashable {
     get
   }
   @_Concurrency.MainActor public init(from viewContent: AppstentUIMac.ViewContent, dataProvider: (any AppstentUIMac.CustomContentDataProvider)? = nil, tapHandler: (any AppstentUIMac.ActionHandlerProvider)? = nil)
-  public typealias ViewBuilder = (AppstentUIMac.ViewContent) -> SwiftUICore.AnyView
+  public typealias ViewBuilder = (AppstentUIMac.ViewContent, (any AppstentUIMac.CustomContentDataProvider)?) -> SwiftUICore.AnyView
   @_Concurrency.MainActor public static func registerViewType(_ type: Swift.String, builder: @escaping AppstentUIMac.AppstentView.ViewBuilder)
   @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s13AppstentUIMac0A4ViewV4bodyQrvp", 0) __
