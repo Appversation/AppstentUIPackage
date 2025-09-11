@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target x86_64-apple-macos15.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AppstentUIMac
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target x86_64-apple-macos15.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AppstentUIMac
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import AVFoundation
 import AVKit
 import Combine
@@ -24,10 +24,9 @@ public struct AppstentDoc : Swift.Identifiable, Swift.Hashable {
   public var isFolder: Swift.Bool
   public var children: [AppstentUIMac.AppstentDoc]?
   public init(name: Swift.String, lastModified: Foundation.Date? = nil, isFolder: Swift.Bool = false)
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: AppstentUIMac.AppstentDoc, b: AppstentUIMac.AppstentDoc) -> Swift.Bool
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ID = Foundation.UUID
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -49,14 +48,12 @@ public struct AppstentDoc : Swift.Identifiable, Swift.Hashable {
   @_Concurrency.MainActor public init(from viewContent: AppstentUIMac.ViewContent, dataProvider: (any AppstentUIMac.CustomContentDataProvider)? = nil, tapHandler: (any AppstentUIMac.ActionHandlerProvider)? = nil)
   public typealias ViewBuilder = (AppstentUIMac.ViewContent, (any AppstentUIMac.CustomContentDataProvider)?) -> SwiftUICore.AnyView
   @_Concurrency.MainActor public static func registerViewType(_ type: Swift.String, builder: @escaping AppstentUIMac.AppstentView.ViewBuilder)
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s13AppstentUIMac0A4ViewV4bodyQrvp", 0) __
 }
 @_Concurrency.MainActor @preconcurrency public struct ContentViewStyle : SwiftUICore.ViewModifier {
   @_Concurrency.MainActor @preconcurrency public func body(content: AppstentUIMac.ContentViewStyle.Content) -> some SwiftUICore.View
   
   @_Concurrency.MainActor @preconcurrency public init(from viewContent: AppstentUIMac.ViewContent)
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s13AppstentUIMac16ContentViewStyleV4body7contentQr7SwiftUI01_d9Modifier_C0VyACG_tF", 0) __
 }
 extension SwiftUICore.View {
@@ -309,7 +306,6 @@ extension SwiftUICore.Color {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s13AppstentUIMac13CustomTabViewV4bodyQrvp", 0) __
 }
 public protocol CustomContentDataProvider {
