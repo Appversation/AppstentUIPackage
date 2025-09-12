@@ -4926,114 +4926,6 @@
             "mangledName": "$ss8CopyableP"
           }
         ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "TabView",
-        "printedName": "TabView",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "tabbarBackground",
-            "printedName": "tabbarBackground()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AnyView",
-                "printedName": "SwiftUI.AnyView",
-                "usr": "s:7SwiftUI7AnyViewV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7SwiftUI7TabViewV08AppstentB0E16tabbarBackgroundQryF",
-            "mangledName": "$s7SwiftUI7TabViewV08AppstentB0E16tabbarBackgroundQryF",
-            "moduleName": "AppstentUI",
-            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable, τ_0_1 : SwiftUI.View>",
-            "sugared_genericSig": "<SelectionValue, Content where SelectionValue : Swift.Hashable, Content : SwiftUI.View>",
-            "declAttributes": [
-              "AccessControl",
-              "Inlinable"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:7SwiftUI7TabViewV",
-        "mangledName": "$s7SwiftUI7TabViewV",
-        "moduleName": "SwiftUI",
-        "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable, τ_0_1 : SwiftUI.View>",
-        "sugared_genericSig": "<SelectionValue, Content where SelectionValue : Swift.Hashable, Content : SwiftUI.View>",
-        "intro_Macosx": "10.15",
-        "intro_iOS": "13.0",
-        "intro_tvOS": "13.0",
-        "intro_watchOS": "7.0",
-        "declAttributes": [
-          "Available",
-          "Available",
-          "Available",
-          "Available"
-        ],
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          }
-        ]
       }
     ],
     "json_format_version": 8
@@ -5713,22 +5605,8 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/iOS\/Views\/TabBarContentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7817,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/iOS\/Views\/TabBarContentView.swift",
-      "kind": "FloatLiteral",
-      "offset": 7831,
-      "length": 3,
-      "value": "0.9"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/AppstentUIFramework\/AppstentUIFramework\/AppstentUI\/iOS\/Views\/TabBarContentView.swift",
       "kind": "StringLiteral",
-      "offset": 8032,
+      "offset": 7807,
       "length": 11,
       "value": "\"pageStyle\""
     },

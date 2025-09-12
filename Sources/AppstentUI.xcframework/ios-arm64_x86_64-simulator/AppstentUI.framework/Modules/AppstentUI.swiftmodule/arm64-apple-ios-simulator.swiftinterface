@@ -306,12 +306,6 @@ extension SwiftUICore.View {
     }
   
 }
-extension SwiftUI.TabView {
-  @inlinable public func tabbarBackground() -> some SwiftUICore.View {
-        return AnyView(self.toolbarBackground(Color.init(white: 255, opacity: 0.9), for: .tabBar))
-    }
-  
-}
 extension SwiftUICore.View {
   @inlinable @_Concurrency.MainActor @preconcurrency public func tabViewStyle(from tabStyleString: Swift.String) -> some SwiftUICore.View {
                    
