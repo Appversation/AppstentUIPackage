@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target arm64-apple-ios18.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AppstentUI
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
 import AVKit
 @_exported import AppstentUI
@@ -16,6 +16,7 @@ import _AVKit_SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import _WebKit_SwiftUI
 import os
 public struct AppstentDoc : Swift.Identifiable, Swift.Hashable {
   public let id: Foundation.UUID
@@ -24,7 +25,9 @@ public struct AppstentDoc : Swift.Identifiable, Swift.Hashable {
   public var content: Swift.String
   public var isFolder: Swift.Bool
   public var children: [AppstentUI.AppstentDoc]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(name: Swift.String, lastModified: Foundation.Date? = nil, isFolder: Swift.Bool = false)
+  #endif
   public static func == (a: AppstentUI.AppstentDoc, b: AppstentUI.AppstentDoc) -> Swift.Bool
   public typealias ID = Foundation.UUID
   public func hash(into hasher: inout Swift.Hasher)
@@ -33,11 +36,17 @@ public struct AppstentDoc : Swift.Identifiable, Swift.Hashable {
   }
 }
 @_hasMissingDesignatedInitializers public class ContentFormatUtil {
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func color(from colorString: Swift.String) -> SwiftUICore.Color?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func alignment(from alignmentString: Swift.String) -> SwiftUICore.Alignment?
+  #endif
   public static func verticalAlignment(from alignmentString: Swift.String) -> SwiftUICore.VerticalAlignment
   public static func horizontalAlignment(from alignmentString: Swift.String) -> SwiftUICore.HorizontalAlignment
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func unitPoint(from unitPointString: Swift.String) -> SwiftUICore.UnitPoint?
+  #endif
   @objc deinit
 }
 @_Concurrency.MainActor public struct AppstentView : SwiftUICore.View {
@@ -46,7 +55,9 @@ public struct AppstentDoc : Swift.Identifiable, Swift.Hashable {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public init(from viewContent: AppstentUI.ViewContent, dataProvider: (any AppstentUI.CustomContentDataProvider)? = nil, tapHandler: (any AppstentUI.ActionHandlerProvider)? = nil)
+  #endif
   public typealias ViewBuilder = (AppstentUI.ViewContent, (any AppstentUI.CustomContentDataProvider)?) -> SwiftUICore.AnyView
   @_Concurrency.MainActor public static func registerViewType(_ type: Swift.String, builder: @escaping AppstentUI.AppstentView.ViewBuilder)
   public typealias Body = @_opaqueReturnTypeOf("$s10AppstentUI0A4ViewV4bodyQrvp", 0) __
@@ -326,10 +337,14 @@ public enum LoadState {
   }
 }
 public protocol ActionHandlerProvider {
+  #if compiler(>=5.3) && $NonescapableTypes
   func tapHandler(with gestureData: [Swift.String : Swift.AnyObject]?) -> () -> Swift.Void
+  #endif
 }
 public protocol GlobalActionHandlerProvider {
+  #if compiler(>=5.3) && $NonescapableTypes
   func tapHandler(for handlerName: Swift.String, with gestureData: [Swift.String : Swift.AnyObject]?) -> () -> Swift.Void
+  #endif
 }
 @dynamicCallable @dynamicMemberLookup public class ViewContent : Swift.Hashable {
   public static func == (lhs: AppstentUI.ViewContent, rhs: AppstentUI.ViewContent) -> Swift.Bool
@@ -369,20 +384,28 @@ public protocol GlobalActionHandlerProvider {
   public subscript(dynamicMember member: Swift.String) -> [Swift.String] {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public subscript(dynamicMember member: Swift.String) -> AppstentUI.ViewContent? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public subscript(dynamicMember member: Swift.String) -> [Swift.String : Swift.AnyObject]? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public subscript(dynamicMember member: Swift.String) -> Swift.Float? {
     get
   }
+  #endif
   public subscript(dynamicMember member: Swift.String) -> Swift.Bool {
     get
   }
   public func dynamicallyCall(withKeywordArguments args: Swift.KeyValuePairs<Swift.String, Swift.AnyObject>)
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func getContent(with name: Swift.String, under subPath: Swift.String = "") async -> Foundation.Data?
+  #endif
   public static func getAllViewContents(under subPath: Swift.String = "") async -> [AppstentUI.AppstentDoc]
   @objc deinit
   public var hashValue: Swift.Int {
@@ -392,11 +415,13 @@ public protocol GlobalActionHandlerProvider {
 @_hasMissingDesignatedInitializers public class ViewContentCache {
   public static let shared: AppstentUI.ViewContentCache
   public func store(_ data: Foundation.Data, for key: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func retrieve(_ key: Swift.String) -> Foundation.Data?
+  #endif
   public func clear()
   @objc deinit
 }
-extension AppstentUI.ViewContent : Observation.Observable {
+extension AppstentUI.ViewContent : nonisolated Observation.Observable {
 }
 public protocol CustomContentViewProvider {
   func customView(from viewName: Swift.String) -> SwiftUICore.AnyView
