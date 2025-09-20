@@ -390,6 +390,11 @@ public protocol GlobalActionHandlerProvider {
   }
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
+  public subscript(dynamicMember member: Swift.String) -> Swift.Int? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public subscript(dynamicMember member: Swift.String) -> Swift.Float? {
     get
   }
