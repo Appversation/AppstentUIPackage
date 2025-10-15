@@ -357,6 +357,21 @@ extension SwiftUICore.View {
         }
     }
   
+  @inlinable @_Concurrency.MainActor @preconcurrency internal func overlay(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
+                
+        guard let overlayView:ViewContent = viewContent.overlay_view else {
+            
+            return AnyView(self)
+        }
+        
+        let alignmentStr:String = viewContent.alignment
+        let alignment:Alignment = ContentFormatUtil.alignment(from: alignmentStr) ?? .center
+        
+        return AnyView(self.overlay(alignment: alignment, content: {
+            AppstentView(from: overlayView)
+        }))
+    }
+  
 }
 extension SwiftUICore.Color {
   public static let backgroundColor: SwiftUICore.Color
