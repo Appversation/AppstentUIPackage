@@ -267,6 +267,47 @@ extension SwiftUICore.View {
                                alignment: alignment)
     }
   
+  @inlinable @_Concurrency.MainActor @preconcurrency internal func relativeFrame(from viewContent: AppstentUI.ViewContent) -> some SwiftUICore.View {
+        
+        let width:Float? = viewContent.percent_width
+        let height:Float? = viewContent.percent_height
+                
+        let minWidth:Float? = viewContent.min_width
+        let maxWidth:Float? = viewContent.max_width
+        let minHeight:Float? = viewContent.min_height
+        let maxHeight:Float? = viewContent.max_height
+        
+        let alignmentValue:String = viewContent.alignment
+        let alignment:Alignment = ContentFormatUtil.alignment(from: alignmentValue) ?? .center
+        
+        return self.containerRelativeFrame([.horizontal, .vertical], alignment: alignment) { (length: CGFloat, axis: Axis) -> CGFloat in
+            if axis == .vertical {
+                if let heightValue: Float = height {
+                    let percentHeight: CGFloat = CGFloat(heightValue) * length
+                    if let maxHeightValue: Float = maxHeight {
+                        return min(percentHeight, CGFloat(maxHeightValue))
+                    } else if let minHeightValue: Float = minHeight {
+                        return max(percentHeight, CGFloat(minHeightValue))
+                    } else {
+                        return percentHeight
+                    }
+                }
+            } else {
+                if let widthValue: Float = width {
+                    let percentWidth: CGFloat = CGFloat(widthValue) * length
+                    if let maxWidthValue: Float = maxWidth {
+                        return min(percentWidth, CGFloat(maxWidthValue))
+                    } else if let minWidthValue: Float = minWidth {
+                        return max(percentWidth, CGFloat(minWidthValue))
+                    } else {
+                        return percentWidth
+                    }
+                }
+            }
+            return length
+        }
+    }
+  
   @inlinable @_Concurrency.MainActor @preconcurrency internal func cornerRadius(from viewContent: AppstentUI.ViewContent) -> some SwiftUICore.View {
         
         guard let radius:Float = viewContent.cornerRadius else {
