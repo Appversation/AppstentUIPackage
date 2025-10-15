@@ -279,32 +279,44 @@ extension SwiftUICore.View {
         let alignmentValue:String = viewContent.alignment
         let alignment:Alignment = ContentFormatUtil.alignment(from: alignmentValue) ?? .center
         
-        return self.containerRelativeFrame([.horizontal, .vertical], alignment: alignment) { (length: CGFloat, axis: Axis) -> CGFloat in
+        if width == nil && height == nil {
+            return AnyView(self)
+        }
+        
+        return AnyView(self.containerRelativeFrame([.horizontal, .vertical], alignment: alignment) { (length: CGFloat, axis: Axis) -> CGFloat in
             if axis == .vertical {
-                if let heightValue: Float = height {
-                    let percentHeight: CGFloat = CGFloat(heightValue) * length
-                    if let maxHeightValue: Float = maxHeight {
-                        return min(percentHeight, CGFloat(maxHeightValue))
-                    } else if let minHeightValue: Float = minHeight {
-                        return max(percentHeight, CGFloat(minHeightValue))
-                    } else {
+                if let height {
+                    
+                    let percentHeight: CGFloat = CGFloat(height) * length
+                    
+                    if let maxHeight {
+                        return min(percentHeight, CGFloat(maxHeight))
+                    }
+                    else if let minHeight {
+                        return max(percentHeight, CGFloat(minHeight))
+                    }
+                    else {
                         return percentHeight
                     }
                 }
             } else {
-                if let widthValue: Float = width {
-                    let percentWidth: CGFloat = CGFloat(widthValue) * length
-                    if let maxWidthValue: Float = maxWidth {
-                        return min(percentWidth, CGFloat(maxWidthValue))
-                    } else if let minWidthValue: Float = minWidth {
-                        return max(percentWidth, CGFloat(minWidthValue))
-                    } else {
+                if let width {
+                    
+                    let percentWidth: CGFloat = CGFloat(width) * length
+                    
+                    if let maxWidth {
+                        return min(percentWidth, CGFloat(maxWidth))
+                    }
+                    else if let minWidth {
+                        return max(percentWidth, CGFloat(minWidth))
+                    }
+                    else {
                         return percentWidth
                     }
                 }
             }
             return length
-        }
+        })
     }
   
   @inlinable @_Concurrency.MainActor @preconcurrency internal func cornerRadius(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
