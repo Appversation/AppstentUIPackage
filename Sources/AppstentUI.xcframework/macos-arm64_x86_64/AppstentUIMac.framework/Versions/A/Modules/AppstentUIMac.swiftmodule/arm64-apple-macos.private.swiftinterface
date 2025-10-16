@@ -38,6 +38,7 @@ public struct AppstentDoc : Swift.Identifiable, Swift.Hashable {
   #if compiler(>=5.3) && $NonescapableTypes
   public static func color(from colorString: Swift.String) -> SwiftUICore.Color?
   #endif
+  public static func textAlignment(from alignmentString: Swift.String) -> SwiftUICore.TextAlignment
   #if compiler(>=5.3) && $NonescapableTypes
   public static func alignment(from alignmentString: Swift.String) -> SwiftUICore.Alignment?
   #endif

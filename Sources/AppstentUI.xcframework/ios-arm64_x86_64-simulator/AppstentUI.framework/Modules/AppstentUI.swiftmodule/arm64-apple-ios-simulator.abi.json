@@ -909,6 +909,35 @@
           },
           {
             "kind": "Function",
+            "name": "textAlignment",
+            "printedName": "textAlignment(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TextAlignment",
+                "printedName": "SwiftUI.TextAlignment",
+                "usr": "s:7SwiftUI13TextAlignmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10AppstentUI17ContentFormatUtilC13textAlignment4from05SwiftB004TextG0OSS_tFZ",
+            "mangledName": "$s10AppstentUI17ContentFormatUtilC13textAlignment4from05SwiftB004TextG0OSS_tFZ",
+            "moduleName": "AppstentUI",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "alignment",
             "printedName": "alignment(from:)",
             "children": [
