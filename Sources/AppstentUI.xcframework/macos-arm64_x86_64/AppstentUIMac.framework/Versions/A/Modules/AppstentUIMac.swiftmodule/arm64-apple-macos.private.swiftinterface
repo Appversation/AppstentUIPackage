@@ -239,6 +239,19 @@ extension SwiftUICore.View {
         return self.fixedSize(horizontal: fixedWidth, vertical: fixedHeight)
     }
   
+  @inlinable @_Concurrency.MainActor @preconcurrency internal func textAlignment(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
+        
+        let alignmentValue:String = viewContent.text_alignment
+        
+        guard !alignmentValue.isEmpty else {
+            return AnyView(self)
+        }
+        
+        let textAlignment:TextAlignment = ContentFormatUtil.textAlignment(from: alignmentValue)
+        
+        return AnyView(self.multilineTextAlignment(textAlignment))
+    }
+  
   @inlinable @_Concurrency.MainActor @preconcurrency internal func frame(from viewContent: AppstentUIMac.ViewContent) -> some SwiftUICore.View {
         
         let width:Float? = viewContent.width
