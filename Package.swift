@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AppstentUI",
-            url: "https://github.com/Appversation/AppstentUIPackage/releases/download/0.0.237/AppstentUI.xcframework.zip",
-            checksum: "ba7afaeb21a720f16595a8daea43008ce308fde17ebb51b43012c71722450f1f"
+            url: "https://github.com/Appversation/AppstentUIPackage/releases/download/0.0.240/AppstentUI.xcframework.zip",
+            checksum: "6197cc1e5b86d08fe83959a5f28bb17dedff5de394b38ad2cfa186377c205bb9"
         )
     ]
 )
