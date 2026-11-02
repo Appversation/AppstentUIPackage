@@ -2,9 +2,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "AppstentUI",
+    name: "AppstentUIPackage",
     platforms: [
-        .iOS("18.0"),
+        .iOS("26.0"),
         .macOS("26.0")
     ],
     products: [
@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AppstentUI",
-            url: "https://github.com/Appversation/AppstentUIPackage/releases/download/2.1.6/AppstentUI.xcframework.zip",
-            checksum: "c0498070a0546c74287582882fee1427a491214c9c3868cbe75da51cc1dacacb"
+            url: "https://github.com/Appversation/AppstentUIPackage/releases/download/2.2.0/AppstentUI.xcframework.zip",
+            checksum: "e87b42cb15c4587379365c2c51d751a81065224a6f6e060883e2c717d74d3b28"
         )
     ]
 )
